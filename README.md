@@ -21,7 +21,7 @@ This project implements four path planning algorithms from scratch in Python and
 
 **50×50 grid, 50 trials per configuration, 3 obstacle densities (10%, 20%, 30%)**
 
-![Benchmark Dashboard](visualizations/phase_a/phase_a/bench_dashboard.png)
+![Benchmark Dashboard](visualizations/phase_a/bench_dashboard.png)
 
 ### Findings
 
@@ -32,23 +32,23 @@ This project implements four path planning algorithms from scratch in Python and
 
 ### Optimality Ratio
 
-![Optimality](visualizations/phase_a/phase_a/bench_optimality_ratio.png)
+![Optimality](visualizations/phase_a/bench_optimality_ratio.png)
 
 RRT-Connect paths cost 1.24-1.31x the optimal. RRT* (where it succeeds) shows ratio of 0.72 — below 1.0 because it moves in continuous space with diagonal shortcuts, while Dijkstra is constrained to cardinal grid moves.
 
 ## Individual Algorithm Visualizations
 
 ### Dijkstra — Explores everything, finds optimal path
-![Dijkstra](visualizations/phase_a/phase_a/dijkstra_result.png)
+![Dijkstra](visualizations/phase_a/dijkstra_result.png)
 
 ### A* — Heuristic focuses search toward goal
-![A*](visualizations/phase_a/phase_a/astar_result.png)
+![A*](visualizations/phase_a/astar_result.png)
 
 ### RRT-Connect — Two trees grow and meet
-![RRT-Connect](visualizations/phase_a/phase_a/rrt_connect_kd_result.png)
+![RRT-Connect](visualizations/phase_a/rrt_connect_kd_result.png)
 
 ### RRT* — Dense tree with rewiring converges toward optimal
-![RRT*](visualizations/phase_a/phase_a/rrt_star_kd_result.png)
+![RRT*](visualizations/phase_a/rrt_star_kd_result.png)
 
 ## Project Structure
 
@@ -73,7 +73,7 @@ RRT-Connect paths cost 1.24-1.31x the optimal. RRT* (where it succeeds) shows ra
 │   └── visualize_combined_gif.py  # Combined animation
 ├── results/
 │   └── benchmark_results.csv      # Raw benchmark data
-├── visualizations/phase_a/phase_a/                # All generated plots and GIFs
+├── visualizations/phase_a         # All generated plots and GIFs
 ├── maps/                          # Real floorplan maps (Phase E)
 └── requirements.txt
 ```
