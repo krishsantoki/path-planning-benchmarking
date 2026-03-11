@@ -50,6 +50,23 @@ RRT-Connect paths cost 1.24-1.31x the optimal. RRT* (where it succeeds) shows ra
 ### RRT* — Dense tree with rewiring converges toward optimal
 ![RRT*](visualizations/phase_a/rrt_star_kd_result.png)
 
+## Phase B — Dynamic Environment Replanning
+
+D* Lite vs A* full replan with moving obstacles. The robot navigates while obstacles move on preset patrol paths. D* Lite updates incrementally; A* restarts from scratch every step.
+
+![Dynamic Replanning](visualizations/phase_b/dstar_vs_astar_replan.gif)
+
+### Replanning Time Comparison
+
+![Replan Times](visualizations/phase_b/replan_time_comparison.png)
+
+### Findings
+
+- **D* Lite is ~7x faster** than A* full replan on average (0.53 ms vs 3.89 ms per step).
+- A* replan time is highest when the robot is far from the goal (10.57 ms) and drops as it approaches. D* Lite stays consistently low (~0.5 ms) regardless of robot position.
+- Both algorithms successfully navigate to the goal despite moving obstacles.
+- D* Lite's advantage grows on larger grids — incremental updates scale better than full replanning.
+
 ## Project Structure
 
 ```
@@ -115,7 +132,7 @@ RRT and RRT* use **KD-Tree** (`scipy.spatial.KDTree`) for nearest neighbor queri
 ## Roadmap
 
 - [x] **Phase A** — Static grid benchmarking
-- [ ] **Phase B** — Dynamic environment replanning (D* Lite)
+- [x] **Phase B** — Dynamic environment replanning (D* Lite)
 - [ ] **Phase E** — Real floorplan maps
 - [ ] **Phase F** — Probabilistic planning under motion uncertainty (MDP)
 
