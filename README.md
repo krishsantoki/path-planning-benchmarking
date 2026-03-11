@@ -2,7 +2,7 @@
 
 Benchmarking RRT-Connect, RRT*, A*, and Dijkstra on static, dynamic, and real-world floorplan maps with quantitative performance analysis.
 
-![Combined Animation](visualizations/phase_a/phase_a/combined_animation.gif)
+![Combined Animation](visualizations/phase_a/combined_animation.gif)
 
 ## Overview
 
