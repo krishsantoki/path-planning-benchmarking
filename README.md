@@ -165,13 +165,6 @@ python src/visualize_combined_gif.py
 
 RRT and RRT* use **KD-Tree** (`scipy.spatial.KDTree`) for nearest neighbor queries, reducing lookup from O(n) to O(log n). This dropped RRT* runtime from ~32s to ~12s on a 20×20 grid at 3000 iterations.
 
-## Roadmap
-
-- [x] **Phase A** — Static grid benchmarking
-- [x] **Phase B** — Dynamic environment replanning (D* Lite)
-- [x] **Phase C** — Real floorplan maps
-- [ ] **Phase D** — Probabilistic planning under motion uncertainty (MDP)
-
 ## Tech Stack
 
-Python 3.11 · NumPy · Matplotlib · SciPy · OpenCV (Phase C)
+Python 3.11 · NumPy · Matplotlib · SciPy · OpenCV
