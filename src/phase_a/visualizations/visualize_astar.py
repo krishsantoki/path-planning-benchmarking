@@ -1,3 +1,7 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "core"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -142,7 +146,7 @@ def visualize_static(grid, result, title="A* Algorithm"):
     ax.set_title(title, fontsize=14, fontweight='bold')
 
     plt.tight_layout()
-    plt.savefig("visualizations/astar_result.png", dpi=150, bbox_inches='tight')
+    plt.savefig("../../visualizations/astar_result.png", dpi=150, bbox_inches='tight')
     plt.show()
     print("Saved to visualizations/astar_result.png")
 
@@ -216,7 +220,7 @@ def visualize_animated(grid, result, title="A* Algorithm", filename="astar_anima
 
     ani = animation.FuncAnimation(fig, update, frames=len(frames),
                                   interval=50, blit=True, repeat=False)
-    ani.save(f"visualizations/{filename}", writer='pillow', fps=15)
+    ani.save(f"../../visualizations/{filename}", writer='pillow', fps=15)
     plt.show()
     print(f"Saved to visualizations/{filename}")
 

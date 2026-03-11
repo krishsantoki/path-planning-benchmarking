@@ -1,36 +1,56 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "core"))
+
 import numpy as np
 import time
 import tracemalloc
-from scipy.spatial import KDTree
 from grid import Grid
 
 
-class RRTConnectKD:
-    """Bidirectional RRT-Connect with KD-Tree optimized nearest neighbor."""
+class RRTConnect:
+    """Bidirectional RRT-Connect algorithm on a 2D grid."""
 
     def __init__(self, grid, step_size=5, max_iterations=5000, connect_threshold=2.0):
+        """
+        Args:
+            grid: Grid object.
+            step_size: Distance to extend tree each step (in cells).
+            max_iterations: Max attempts before giving up.
+            connect_threshold: Distance to consider two nodes connected.
+        """
         self.grid = grid
         self.step_size = step_size
         self.max_iterations = max_iterations
         self.connect_threshold = connect_threshold
 
     def _distance(self, a, b):
+        """Euclidean distance between two points."""
         return np.sqrt((a[0] - b[0])**2 + (a[1] - b[1])**2)
 
     def _steer(self, from_node, to_node):
+        """
+        Move from from_node toward to_node by step_size.
+        Returns the new point.
+        """
         dist = self._distance(from_node, to_node)
         if dist < self.step_size:
             return to_node
+
         ratio = self.step_size / dist
         new_row = from_node[0] + ratio * (to_node[0] - from_node[0])
         new_col = from_node[1] + ratio * (to_node[1] - from_node[1])
         return (new_row, new_col)
 
     def _is_collision_free(self, from_node, to_node):
+        """
+        Check if straight line between two points is obstacle-free.
+        Uses Bresenham-style sampling along the line.
+        """
         dist = self._distance(from_node, to_node)
         if dist == 0:
             return True
-        steps = int(dist * 2) + 1
+
+        steps = int(dist * 2) + 1  # Sample at half-cell resolution
         for i in range(steps + 1):
             t = i / steps
             r = int(round(from_node[0] + t * (to_node[0] - from_node[0])))
@@ -39,14 +59,27 @@ class RRTConnectKD:
                 return False
         return True
 
-    def _extend(self, tree, tree_array, parent_map, target, kd_tree):
-        _, nearest_idx = kd_tree.query(list(target))
-        nearest = tree[nearest_idx]
+    def _nearest(self, tree, point):
+        """Find the nearest node in the tree to the given point."""
+        min_dist = float('inf')
+        nearest_node = None
+        for node in tree:
+            d = self._distance(node, point)
+            if d < min_dist:
+                min_dist = d
+                nearest_node = node
+        return nearest_node
+
+    def _extend(self, tree, parent_map, target):
+        """
+        Try to extend the tree toward target.
+        Returns: 'reached' if target hit, 'advanced' if new node added, 'trapped' if blocked.
+        """
+        nearest = self._nearest(tree, target)
         new_node = self._steer(nearest, target)
 
         if self._is_collision_free(nearest, new_node):
             tree.append(new_node)
-            tree_array.append(list(new_node))
             parent_map[new_node] = nearest
 
             if self._distance(new_node, target) < self.connect_threshold:
@@ -54,27 +87,38 @@ class RRTConnectKD:
             return "advanced", new_node
         return "trapped", None
 
-    def _connect(self, tree, tree_array, parent_map, target, kd_tree):
+    def _connect(self, tree, parent_map, target):
+        """
+        Greedily extend tree toward target until reached or trapped.
+        """
         while True:
-            # Rebuild KDTree with new nodes
-            kd_tree = KDTree(tree_array)
-            status, new_node = self._extend(tree, tree_array, parent_map, target, kd_tree)
+            status, new_node = self._extend(tree, parent_map, target)
             if status == "reached":
                 return "reached", new_node
             elif status == "trapped":
                 return "trapped", None
 
     def search(self, start, goal):
+        """
+        Find path from start to goal using RRT-Connect.
+
+        Args:
+            start: (row, col) tuple.
+            goal: (row, col) tuple.
+
+        Returns:
+            dict with: path, cost, nodes_explored, planning_time_ms, memory_mb,
+                       tree_start, tree_goal.
+        """
         tracemalloc.start()
         start_time = time.perf_counter()
 
         start = (float(start[0]), float(start[1]))
         goal = (float(goal[0]), float(goal[1]))
 
-        tree_a = [start]
-        tree_a_array = [list(start)]
-        tree_b = [goal]
-        tree_b_array = [list(goal)]
+        # Two trees
+        tree_a = [start]  # Grows from start
+        tree_b = [goal]   # Grows from goal
         parent_a = {start: None}
         parent_b = {goal: None}
 
@@ -83,31 +127,31 @@ class RRTConnectKD:
         connect_node_b = None
 
         for i in range(self.max_iterations):
-            # Rebuild KDTrees
-            kd_a = KDTree(tree_a_array)
-
+            # Random sample
             rand_row = np.random.uniform(0, self.grid.height - 1)
             rand_col = np.random.uniform(0, self.grid.width - 1)
             random_point = (rand_row, rand_col)
 
-            status_a, new_node_a = self._extend(tree_a, tree_a_array, parent_a, random_point, kd_a)
+            # Extend tree_a toward random point
+            status_a, new_node_a = self._extend(tree_a, parent_a, random_point)
 
             if status_a != "trapped" and new_node_a is not None:
-                kd_b = KDTree(tree_b_array)
-                status_b, new_node_b = self._connect(tree_b, tree_b_array, parent_b, new_node_a, kd_b)
+                # Try to connect tree_b to tree_a's new node
+                status_b, new_node_b = self._connect(tree_b, parent_b, new_node_a)
 
                 if status_b == "reached" and new_node_b is not None:
                     connect_node_a = new_node_a
                     connect_node_b = new_node_b
                     break
 
-            # Swap trees
+            # Swap trees so both grow evenly
             tree_a, tree_b = tree_b, tree_a
-            tree_a_array, tree_b_array = tree_b_array, tree_a_array
             parent_a, parent_b = parent_b, parent_a
 
-        # Reconstruct path
+        # Reconstruct path if connected
         if connect_node_a is not None:
+            # Figure out which tree is start-tree and which is goal-tree
+            # After swaps, we need to check
             if start in parent_a:
                 path_a = self._trace_path(parent_a, connect_node_a)
                 path_b = self._trace_path(parent_b, connect_node_b)
@@ -116,22 +160,28 @@ class RRTConnectKD:
                 path_b = self._trace_path(parent_a, connect_node_a)
                 path_a, path_b = path_b, path_a
 
+            # path_a goes from start to connect point
+            # path_b goes from goal to connect point — reverse it
             if path_a and path_b:
+                # Ensure path_a starts with start
                 if self._distance(path_a[0], start) > self._distance(path_a[-1], start):
                     path_a.reverse()
                 if self._distance(path_b[0], goal) > self._distance(path_b[-1], goal):
                     path_b.reverse()
-                path_b.reverse()
+
+                path_b.reverse()  # Now goes from connect point to goal
                 path = path_a + path_b
 
         end_time = time.perf_counter()
         _, peak_memory = tracemalloc.get_traced_memory()
         tracemalloc.stop()
 
+        # Compute path cost
         cost = None
         if path:
             cost = sum(self._distance(path[i], path[i+1]) for i in range(len(path)-1))
 
+        # Combine both trees for visualization
         all_tree_a = tree_a if start in parent_a else tree_b
         all_tree_b = tree_b if start in parent_a else tree_a
 
@@ -148,6 +198,7 @@ class RRTConnectKD:
         }
 
     def _trace_path(self, parent_map, node):
+        """Trace path from node back to root of its tree."""
         path = []
         current = node
         while current is not None:
@@ -163,7 +214,7 @@ if __name__ == "__main__":
     goal = (19, 19)
 
     np.random.seed(42)
-    rrt = RRTConnectKD(g, step_size=3, max_iterations=5000)
+    rrt = RRTConnect(g, step_size=3, max_iterations=5000)
     result = rrt.search(start, goal)
 
     if result["path"]:

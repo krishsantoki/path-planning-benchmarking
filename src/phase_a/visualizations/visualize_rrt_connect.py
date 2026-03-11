@@ -1,3 +1,7 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "core"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -73,7 +77,7 @@ def visualize_static(grid, result, title="RRT-Connect"):
     ax.set_ylim(grid.height, 0)
 
     plt.tight_layout()
-    plt.savefig("visualizations/rrt_connect_result.png", dpi=150, bbox_inches='tight')
+    plt.savefig("../../visualizations/rrt_connect_result.png", dpi=150, bbox_inches='tight')
     plt.show()
     print("Saved to visualizations/rrt_connect_result.png")
 
@@ -163,7 +167,7 @@ def visualize_animated(grid, result, title="RRT-Connect", filename="rrt_connect_
 
     ani = animation.FuncAnimation(fig, update, frames=len(frames),
                                   interval=80, blit=False, repeat=False)
-    ani.save(f"visualizations/{filename}", writer='pillow', fps=12)
+    ani.save(f"../../visualizations/{filename}", writer='pillow', fps=12)
     plt.show()
     print(f"Saved to visualizations/{filename}")
 

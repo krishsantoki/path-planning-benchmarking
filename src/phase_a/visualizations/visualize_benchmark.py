@@ -1,10 +1,14 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "core"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import numpy as np
 import matplotlib.pyplot as plt
 import csv
 import os
 
 
-def load_results(filepath="results/benchmark_results.csv"):
+def load_results(filepath="../../results/benchmark_results.csv"):
     """Load benchmark results from CSV."""
     results = []
     with open(filepath, 'r') as f:
@@ -81,7 +85,7 @@ def plot_benchmark(results):
     ax.legend(loc='upper right')
     ax.grid(axis='y', alpha=0.3)
     plt.tight_layout()
-    plt.savefig("visualizations/bench_success_rate.png", dpi=150)
+    plt.savefig("../../visualizations/bench_success_rate.png", dpi=150)
     plt.close()
     print("Saved bench_success_rate.png")
 
@@ -107,7 +111,7 @@ def plot_benchmark(results):
     ax.legend(loc='upper right')
     ax.grid(axis='y', alpha=0.3)
     plt.tight_layout()
-    plt.savefig("visualizations/bench_planning_time.png", dpi=150)
+    plt.savefig("../../visualizations/bench_planning_time.png", dpi=150)
     plt.close()
     print("Saved bench_planning_time.png")
 
@@ -133,7 +137,7 @@ def plot_benchmark(results):
     ax.legend(loc='upper right')
     ax.grid(axis='y', alpha=0.3)
     plt.tight_layout()
-    plt.savefig("visualizations/bench_path_cost.png", dpi=150)
+    plt.savefig("../../visualizations/bench_path_cost.png", dpi=150)
     plt.close()
     print("Saved bench_path_cost.png")
 
@@ -159,7 +163,7 @@ def plot_benchmark(results):
     ax.legend(loc='upper right')
     ax.grid(axis='y', alpha=0.3)
     plt.tight_layout()
-    plt.savefig("visualizations/bench_nodes_explored.png", dpi=150)
+    plt.savefig("../../visualizations/bench_nodes_explored.png", dpi=150)
     plt.close()
     print("Saved bench_nodes_explored.png")
 
@@ -185,7 +189,7 @@ def plot_benchmark(results):
     ax.legend(loc='upper right')
     ax.grid(axis='y', alpha=0.3)
     plt.tight_layout()
-    plt.savefig("visualizations/bench_memory.png", dpi=150)
+    plt.savefig("../../visualizations/bench_memory.png", dpi=150)
     plt.close()
     print("Saved bench_memory.png")
 
@@ -231,7 +235,7 @@ def plot_benchmark(results):
     ax.legend(loc='upper right')
     ax.grid(axis='y', alpha=0.3)
     plt.tight_layout()
-    plt.savefig("visualizations/bench_optimality_ratio.png", dpi=150)
+    plt.savefig("../../visualizations/bench_optimality_ratio.png", dpi=150)
     plt.close()
     print("Saved bench_optimality_ratio.png")
 
@@ -285,7 +289,7 @@ def plot_benchmark(results):
 
     axes[0][0].legend(loc='upper right', fontsize=8)
     plt.tight_layout()
-    plt.savefig("visualizations/bench_dashboard.png", dpi=150, bbox_inches='tight')
+    plt.savefig("../../visualizations/bench_dashboard.png", dpi=150, bbox_inches='tight')
     plt.close()
     print("Saved bench_dashboard.png")
 
@@ -293,5 +297,5 @@ def plot_benchmark(results):
 
 
 if __name__ == "__main__":
-    results = load_results("results/benchmark_results.csv")
+    results = load_results("../../results/benchmark_results.csv")
     plot_benchmark(results)

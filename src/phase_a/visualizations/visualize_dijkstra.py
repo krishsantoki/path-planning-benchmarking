@@ -1,3 +1,7 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "core"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -153,7 +157,7 @@ def visualize(grid, result, title="Dijkstra's Algorithm"):
 
     ax.set_title(title, fontsize=14, fontweight='bold')
     plt.tight_layout()
-    plt.savefig("visualizations/dijkstra_result.png", dpi=150, bbox_inches='tight')
+    plt.savefig("../../visualizations/dijkstra_result.png", dpi=150, bbox_inches='tight')
     plt.show()
     print("Saved to visualizations/dijkstra_result.png")
 
@@ -219,7 +223,7 @@ def visualize_animated(grid, result, title="Dijkstra's Algorithm", filename="dij
 
     ani = animation.FuncAnimation(fig, update, frames=len(frames),
                                   interval=50, blit=True, repeat=False)
-    ani.save(f"visualizations/{filename}", writer='pillow', fps=15)
+    ani.save(f"../../visualizations/{filename}", writer='pillow', fps=15)
     plt.show()
     print(f"Saved to visualizations/{filename}")
 

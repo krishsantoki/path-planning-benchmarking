@@ -1,3 +1,6 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "core"))
+
 import numpy as np
 import csv
 import time
@@ -130,7 +133,7 @@ class BenchmarkRunner:
         print(f"\n{'='*60}")
         print(f"Benchmark complete. {len(self.results)} results recorded.")
 
-    def save_csv(self, filepath="results/benchmark_results.csv"):
+    def save_csv(self, filepath="../../results/benchmark_results.csv"):
         """Save all results to CSV."""
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
 

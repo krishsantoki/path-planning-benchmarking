@@ -1,3 +1,7 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "core"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -299,7 +303,7 @@ def main():
     print("Building animation...")
     ani = animation.FuncAnimation(fig, update, frames=total,
                                   interval=60, blit=False, repeat=False)
-    ani.save("visualizations/combined_animation.gif", writer='pillow', fps=15)
+    ani.save("../../visualizations/combined_animation.gif", writer='pillow', fps=15)
     plt.close()
     print("Saved to visualizations/combined_animation.gif")
 

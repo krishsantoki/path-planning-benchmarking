@@ -1,14 +1,20 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "core"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import matplotlib.animation as animation
 from grid import Grid
-from rrt_star_kd import RRTStarKD
+from rrt_star import RRTStar
 
 
-def visualize_static(grid, result, title="RRT* (KD-Tree)"):
+def visualize_static(grid, result, title="RRT*"):
+    """Static PNG showing tree, rewired connections, and final path."""
     fig, ax = plt.subplots(figsize=(10, 10))
 
+    # Draw grid
     display = np.ones((grid.height, grid.width, 3))
     for r in range(grid.height):
         for c in range(grid.width):
@@ -17,20 +23,27 @@ def visualize_static(grid, result, title="RRT* (KD-Tree)"):
 
     ax.imshow(display, interpolation='nearest', extent=[0, grid.width, grid.height, 0])
 
+    # Draw tree edges (light blue)
     parent_map = result["parent_map"]
     for node, par in parent_map.items():
         if par is not None:
             ax.plot([par[1], node[1]], [par[0], node[0]],
                     color=[0.68, 0.85, 0.95], linewidth=0.5, alpha=0.5)
 
+    # Draw final path (red, thick)
     if result["path"]:
         path = result["path"]
         for i in range(len(path) - 1):
             ax.plot([path[i][1], path[i+1][1]], [path[i][0], path[i+1][0]],
                     color=[0.9, 0.2, 0.2], linewidth=2.5, zorder=4)
-        ax.plot(path[0][1], path[0][0], 'o', color=[0.2, 0.8, 0.2], markersize=12, zorder=5)
-        ax.plot(path[-1][1], path[-1][0], 'o', color=[1.0, 0.6, 0.0], markersize=12, zorder=5)
 
+        # Start and goal
+        ax.plot(path[0][1], path[0][0], 'o',
+                color=[0.2, 0.8, 0.2], markersize=12, zorder=5)
+        ax.plot(path[-1][1], path[-1][0], 'o',
+                color=[1.0, 0.6, 0.0], markersize=12, zorder=5)
+
+    # Metrics
     metrics = (
         f"Waypoints: {len(result['path']) if result['path'] else 0}\n"
         f"Cost: {result['cost']:.2f}\n"
@@ -55,14 +68,16 @@ def visualize_static(grid, result, title="RRT* (KD-Tree)"):
     ax.set_ylim(grid.height, 0)
 
     plt.tight_layout()
-    plt.savefig("visualizations/rrt_star_kd_result.png", dpi=150, bbox_inches='tight')
+    plt.savefig("../../visualizations/rrt_star_result.png", dpi=150, bbox_inches='tight')
     plt.show()
-    print("Saved to visualizations/rrt_star_kd_result.png")
+    print("Saved to visualizations/rrt_star_result.png")
 
 
-def visualize_animated(grid, result, title="RRT* (KD-Tree)", filename="rrt_star_kd_animation.gif"):
+def visualize_animated(grid, result, title="RRT*", filename="rrt_star_animation.gif"):
+    """Animated GIF showing tree growing and path appearing."""
     fig, ax = plt.subplots(figsize=(8, 8))
 
+    # Draw grid background
     display = np.ones((grid.height, grid.width, 3))
     for r in range(grid.height):
         for c in range(grid.width):
@@ -74,14 +89,21 @@ def visualize_animated(grid, result, title="RRT* (KD-Tree)", filename="rrt_star_
     ax.set_ylim(grid.height, 0)
     ax.set_title(title, fontsize=14, fontweight='bold')
 
+    # Collect edges
     parent_map = result["parent_map"]
-    edges = [(par, node) for node, par in parent_map.items() if par is not None]
+    edges = []
+    for node, par in parent_map.items():
+        if par is not None:
+            edges.append((par, node))
+
     path = result["path"]
 
+    # Start and goal markers
     if path:
         ax.plot(path[0][1], path[0][0], 'o', color=[0.2, 0.8, 0.2], markersize=12, zorder=5)
         ax.plot(path[-1][1], path[-1][0], 'o', color=[1.0, 0.6, 0.0], markersize=12, zorder=5)
 
+    # Build frames
     edges_per_frame = max(1, len(edges) // 80)
     frames = []
     for i in range(0, len(edges), edges_per_frame):
@@ -101,6 +123,7 @@ def visualize_animated(grid, result, title="RRT* (KD-Tree)", filename="rrt_star_
             for line in drawn_lines:
                 line.remove()
             drawn_lines.clear()
+
             for par, node in data:
                 line, = ax.plot([par[1], node[1]], [par[0], node[0]],
                                 color=[0.68, 0.85, 0.95], linewidth=0.5, alpha=0.5)
@@ -117,7 +140,7 @@ def visualize_animated(grid, result, title="RRT* (KD-Tree)", filename="rrt_star_
 
     ani = animation.FuncAnimation(fig, update, frames=len(frames),
                                   interval=50, blit=False, repeat=False)
-    ani.save(f"visualizations/{filename}", writer='pillow', fps=15)
+    ani.save(f"../../visualizations/{filename}", writer='pillow', fps=15)
     plt.show()
     print(f"Saved to visualizations/{filename}")
 
@@ -128,14 +151,13 @@ if __name__ == "__main__":
     goal = (19, 19)
 
     np.random.seed(42)
-    rrt_star = RRTStarKD(g, step_size=3, max_iterations=3000,
-                         goal_bias=0.1, goal_threshold=3.0, rewire_radius=8.0)
+    rrt_star = RRTStar(g, step_size=3, max_iterations=3000,
+                       goal_bias=0.1, goal_threshold=3.0, rewire_radius=8.0)
     result = rrt_star.search(start, goal)
 
     if result["path"]:
         print(f"Path found! Waypoints: {len(result['path'])}")
         print(f"Cost: {result['cost']:.2f}")
-        print(f"Time: {result['planning_time_ms']:.2f} ms (vs ~32s without KD-Tree)")
         visualize_static(g, result)
         visualize_animated(g, result)
     else:

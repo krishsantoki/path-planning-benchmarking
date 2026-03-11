@@ -1,3 +1,7 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "core"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -175,7 +179,7 @@ def main():
     ax.tick_params(labelbottom=False, labelleft=False, bottom=False, left=False)
 
     plt.tight_layout()
-    plt.savefig("visualizations/side_by_side_comparison.png", dpi=150, bbox_inches='tight')
+    plt.savefig("../../visualizations/side_by_side_comparison.png", dpi=150, bbox_inches='tight')
     plt.show()
     print("Saved to visualizations/side_by_side_comparison.png")
 
