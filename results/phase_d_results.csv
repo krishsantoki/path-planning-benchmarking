@@ -1,0 +1,2401 @@
+noise_level,planner,trial,success,steps,drift_events
+Low (95/2.5/2.5),Dijkstra,0,True,290,10
+Low (95/2.5/2.5),Dijkstra,1,True,45,3
+Low (95/2.5/2.5),Dijkstra,2,True,38,0
+Low (95/2.5/2.5),Dijkstra,3,True,40,0
+Low (95/2.5/2.5),Dijkstra,4,False,300,11
+Low (95/2.5/2.5),Dijkstra,5,True,43,3
+Low (95/2.5/2.5),Dijkstra,6,True,40,3
+Low (95/2.5/2.5),Dijkstra,7,False,300,9
+Low (95/2.5/2.5),Dijkstra,8,True,46,3
+Low (95/2.5/2.5),Dijkstra,9,False,300,8
+Low (95/2.5/2.5),Dijkstra,10,True,46,0
+Low (95/2.5/2.5),Dijkstra,11,True,39,0
+Low (95/2.5/2.5),Dijkstra,12,True,205,10
+Low (95/2.5/2.5),Dijkstra,13,True,177,3
+Low (95/2.5/2.5),Dijkstra,14,True,296,9
+Low (95/2.5/2.5),Dijkstra,15,True,46,1
+Low (95/2.5/2.5),Dijkstra,16,True,38,0
+Low (95/2.5/2.5),Dijkstra,17,True,38,0
+Low (95/2.5/2.5),Dijkstra,18,False,300,10
+Low (95/2.5/2.5),Dijkstra,19,True,294,11
+Low (95/2.5/2.5),Dijkstra,20,True,38,0
+Low (95/2.5/2.5),Dijkstra,21,True,46,1
+Low (95/2.5/2.5),Dijkstra,22,True,77,3
+Low (95/2.5/2.5),Dijkstra,23,True,46,1
+Low (95/2.5/2.5),Dijkstra,24,True,243,11
+Low (95/2.5/2.5),Dijkstra,25,True,58,2
+Low (95/2.5/2.5),Dijkstra,26,True,49,4
+Low (95/2.5/2.5),Dijkstra,27,False,300,11
+Low (95/2.5/2.5),Dijkstra,28,False,300,12
+Low (95/2.5/2.5),Dijkstra,29,True,48,3
+Low (95/2.5/2.5),Dijkstra,30,True,46,2
+Low (95/2.5/2.5),Dijkstra,31,True,122,4
+Low (95/2.5/2.5),Dijkstra,32,True,40,1
+Low (95/2.5/2.5),Dijkstra,33,True,260,14
+Low (95/2.5/2.5),Dijkstra,34,True,38,0
+Low (95/2.5/2.5),Dijkstra,35,True,39,2
+Low (95/2.5/2.5),Dijkstra,36,True,91,2
+Low (95/2.5/2.5),Dijkstra,37,True,126,5
+Low (95/2.5/2.5),Dijkstra,38,True,113,5
+Low (95/2.5/2.5),Dijkstra,39,True,38,0
+Low (95/2.5/2.5),Dijkstra,40,True,145,2
+Low (95/2.5/2.5),Dijkstra,41,True,40,0
+Low (95/2.5/2.5),Dijkstra,42,False,300,9
+Low (95/2.5/2.5),Dijkstra,43,True,43,3
+Low (95/2.5/2.5),Dijkstra,44,False,300,7
+Low (95/2.5/2.5),Dijkstra,45,False,300,8
+Low (95/2.5/2.5),Dijkstra,46,False,300,4
+Low (95/2.5/2.5),Dijkstra,47,True,84,2
+Low (95/2.5/2.5),Dijkstra,48,True,38,0
+Low (95/2.5/2.5),Dijkstra,49,True,80,3
+Low (95/2.5/2.5),Dijkstra,50,False,300,11
+Low (95/2.5/2.5),Dijkstra,51,True,38,0
+Low (95/2.5/2.5),Dijkstra,52,True,86,2
+Low (95/2.5/2.5),Dijkstra,53,True,40,1
+Low (95/2.5/2.5),Dijkstra,54,False,300,4
+Low (95/2.5/2.5),Dijkstra,55,True,95,2
+Low (95/2.5/2.5),Dijkstra,56,False,300,5
+Low (95/2.5/2.5),Dijkstra,57,True,46,1
+Low (95/2.5/2.5),Dijkstra,58,False,300,8
+Low (95/2.5/2.5),Dijkstra,59,True,40,1
+Low (95/2.5/2.5),Dijkstra,60,True,66,6
+Low (95/2.5/2.5),Dijkstra,61,True,83,2
+Low (95/2.5/2.5),Dijkstra,62,True,187,9
+Low (95/2.5/2.5),Dijkstra,63,True,40,1
+Low (95/2.5/2.5),Dijkstra,64,True,38,0
+Low (95/2.5/2.5),Dijkstra,65,True,70,2
+Low (95/2.5/2.5),Dijkstra,66,True,38,0
+Low (95/2.5/2.5),Dijkstra,67,True,69,5
+Low (95/2.5/2.5),Dijkstra,68,True,44,4
+Low (95/2.5/2.5),Dijkstra,69,True,40,0
+Low (95/2.5/2.5),Dijkstra,70,True,40,2
+Low (95/2.5/2.5),Dijkstra,71,True,182,8
+Low (95/2.5/2.5),Dijkstra,72,True,38,0
+Low (95/2.5/2.5),Dijkstra,73,True,62,3
+Low (95/2.5/2.5),Dijkstra,74,True,38,0
+Low (95/2.5/2.5),Dijkstra,75,True,38,2
+Low (95/2.5/2.5),Dijkstra,76,False,300,8
+Low (95/2.5/2.5),Dijkstra,77,True,38,0
+Low (95/2.5/2.5),Dijkstra,78,True,140,2
+Low (95/2.5/2.5),Dijkstra,79,True,70,3
+Low (95/2.5/2.5),Dijkstra,80,True,40,1
+Low (95/2.5/2.5),Dijkstra,81,True,42,2
+Low (95/2.5/2.5),Dijkstra,82,True,133,6
+Low (95/2.5/2.5),Dijkstra,83,True,40,3
+Low (95/2.5/2.5),Dijkstra,84,True,72,6
+Low (95/2.5/2.5),Dijkstra,85,True,38,0
+Low (95/2.5/2.5),Dijkstra,86,True,39,0
+Low (95/2.5/2.5),Dijkstra,87,True,116,5
+Low (95/2.5/2.5),Dijkstra,88,True,91,3
+Low (95/2.5/2.5),Dijkstra,89,True,69,2
+Low (95/2.5/2.5),Dijkstra,90,True,215,11
+Low (95/2.5/2.5),Dijkstra,91,True,46,0
+Low (95/2.5/2.5),Dijkstra,92,True,38,0
+Low (95/2.5/2.5),Dijkstra,93,True,190,4
+Low (95/2.5/2.5),Dijkstra,94,False,300,9
+Low (95/2.5/2.5),Dijkstra,95,True,233,15
+Low (95/2.5/2.5),Dijkstra,96,True,52,3
+Low (95/2.5/2.5),Dijkstra,97,True,40,2
+Low (95/2.5/2.5),Dijkstra,98,True,107,7
+Low (95/2.5/2.5),Dijkstra,99,True,256,12
+Low (95/2.5/2.5),Dijkstra,100,True,85,3
+Low (95/2.5/2.5),Dijkstra,101,True,41,2
+Low (95/2.5/2.5),Dijkstra,102,True,38,0
+Low (95/2.5/2.5),Dijkstra,103,True,38,0
+Low (95/2.5/2.5),Dijkstra,104,False,300,11
+Low (95/2.5/2.5),Dijkstra,105,True,38,0
+Low (95/2.5/2.5),Dijkstra,106,True,176,10
+Low (95/2.5/2.5),Dijkstra,107,True,217,7
+Low (95/2.5/2.5),Dijkstra,108,True,46,1
+Low (95/2.5/2.5),Dijkstra,109,True,78,4
+Low (95/2.5/2.5),Dijkstra,110,False,300,6
+Low (95/2.5/2.5),Dijkstra,111,True,152,5
+Low (95/2.5/2.5),Dijkstra,112,True,57,3
+Low (95/2.5/2.5),Dijkstra,113,True,113,4
+Low (95/2.5/2.5),Dijkstra,114,True,44,3
+Low (95/2.5/2.5),Dijkstra,115,True,94,4
+Low (95/2.5/2.5),Dijkstra,116,False,300,9
+Low (95/2.5/2.5),Dijkstra,117,True,62,2
+Low (95/2.5/2.5),Dijkstra,118,False,300,5
+Low (95/2.5/2.5),Dijkstra,119,False,300,9
+Low (95/2.5/2.5),Dijkstra,120,True,192,10
+Low (95/2.5/2.5),Dijkstra,121,True,259,13
+Low (95/2.5/2.5),Dijkstra,122,True,39,0
+Low (95/2.5/2.5),Dijkstra,123,False,300,6
+Low (95/2.5/2.5),Dijkstra,124,True,298,11
+Low (95/2.5/2.5),Dijkstra,125,True,146,2
+Low (95/2.5/2.5),Dijkstra,126,True,189,7
+Low (95/2.5/2.5),Dijkstra,127,True,40,1
+Low (95/2.5/2.5),Dijkstra,128,True,134,4
+Low (95/2.5/2.5),Dijkstra,129,True,86,2
+Low (95/2.5/2.5),Dijkstra,130,False,300,8
+Low (95/2.5/2.5),Dijkstra,131,True,64,3
+Low (95/2.5/2.5),Dijkstra,132,False,300,11
+Low (95/2.5/2.5),Dijkstra,133,True,87,2
+Low (95/2.5/2.5),Dijkstra,134,True,40,0
+Low (95/2.5/2.5),Dijkstra,135,True,39,2
+Low (95/2.5/2.5),Dijkstra,136,True,92,5
+Low (95/2.5/2.5),Dijkstra,137,True,46,0
+Low (95/2.5/2.5),Dijkstra,138,True,52,2
+Low (95/2.5/2.5),Dijkstra,139,True,42,2
+Low (95/2.5/2.5),Dijkstra,140,True,55,2
+Low (95/2.5/2.5),Dijkstra,141,True,44,2
+Low (95/2.5/2.5),Dijkstra,142,True,59,3
+Low (95/2.5/2.5),Dijkstra,143,True,285,10
+Low (95/2.5/2.5),Dijkstra,144,True,53,3
+Low (95/2.5/2.5),Dijkstra,145,True,38,0
+Low (95/2.5/2.5),Dijkstra,146,True,88,5
+Low (95/2.5/2.5),Dijkstra,147,True,112,6
+Low (95/2.5/2.5),Dijkstra,148,True,38,0
+Low (95/2.5/2.5),Dijkstra,149,True,51,2
+Low (95/2.5/2.5),Dijkstra,150,True,300,12
+Low (95/2.5/2.5),Dijkstra,151,False,300,17
+Low (95/2.5/2.5),Dijkstra,152,True,87,2
+Low (95/2.5/2.5),Dijkstra,153,True,40,1
+Low (95/2.5/2.5),Dijkstra,154,False,300,11
+Low (95/2.5/2.5),Dijkstra,155,True,40,1
+Low (95/2.5/2.5),Dijkstra,156,True,40,1
+Low (95/2.5/2.5),Dijkstra,157,True,122,8
+Low (95/2.5/2.5),Dijkstra,158,True,127,6
+Low (95/2.5/2.5),Dijkstra,159,True,194,12
+Low (95/2.5/2.5),Dijkstra,160,True,47,0
+Low (95/2.5/2.5),Dijkstra,161,True,38,0
+Low (95/2.5/2.5),Dijkstra,162,True,109,5
+Low (95/2.5/2.5),Dijkstra,163,True,38,0
+Low (95/2.5/2.5),Dijkstra,164,True,46,0
+Low (95/2.5/2.5),Dijkstra,165,True,114,7
+Low (95/2.5/2.5),Dijkstra,166,False,300,6
+Low (95/2.5/2.5),Dijkstra,167,True,261,9
+Low (95/2.5/2.5),Dijkstra,168,True,245,9
+Low (95/2.5/2.5),Dijkstra,169,True,38,0
+Low (95/2.5/2.5),Dijkstra,170,True,42,3
+Low (95/2.5/2.5),Dijkstra,171,True,70,3
+Low (95/2.5/2.5),Dijkstra,172,True,38,0
+Low (95/2.5/2.5),Dijkstra,173,True,41,5
+Low (95/2.5/2.5),Dijkstra,174,True,172,8
+Low (95/2.5/2.5),Dijkstra,175,False,300,13
+Low (95/2.5/2.5),Dijkstra,176,True,166,7
+Low (95/2.5/2.5),Dijkstra,177,True,38,0
+Low (95/2.5/2.5),Dijkstra,178,True,268,8
+Low (95/2.5/2.5),Dijkstra,179,True,41,2
+Low (95/2.5/2.5),Dijkstra,180,True,38,0
+Low (95/2.5/2.5),Dijkstra,181,True,175,10
+Low (95/2.5/2.5),Dijkstra,182,True,298,11
+Low (95/2.5/2.5),Dijkstra,183,True,49,2
+Low (95/2.5/2.5),Dijkstra,184,True,48,2
+Low (95/2.5/2.5),Dijkstra,185,True,38,0
+Low (95/2.5/2.5),Dijkstra,186,False,300,12
+Low (95/2.5/2.5),Dijkstra,187,True,71,2
+Low (95/2.5/2.5),Dijkstra,188,True,69,4
+Low (95/2.5/2.5),Dijkstra,189,True,39,0
+Low (95/2.5/2.5),Dijkstra,190,True,256,3
+Low (95/2.5/2.5),Dijkstra,191,True,46,1
+Low (95/2.5/2.5),Dijkstra,192,True,112,8
+Low (95/2.5/2.5),Dijkstra,193,True,51,2
+Low (95/2.5/2.5),Dijkstra,194,True,46,0
+Low (95/2.5/2.5),Dijkstra,195,False,300,3
+Low (95/2.5/2.5),Dijkstra,196,True,51,3
+Low (95/2.5/2.5),Dijkstra,197,True,270,15
+Low (95/2.5/2.5),Dijkstra,198,True,96,2
+Low (95/2.5/2.5),Dijkstra,199,True,116,2
+Low (95/2.5/2.5),A*,0,True,76,4
+Low (95/2.5/2.5),A*,1,True,44,3
+Low (95/2.5/2.5),A*,2,True,38,0
+Low (95/2.5/2.5),A*,3,True,40,0
+Low (95/2.5/2.5),A*,4,False,300,11
+Low (95/2.5/2.5),A*,5,True,43,3
+Low (95/2.5/2.5),A*,6,True,47,3
+Low (95/2.5/2.5),A*,7,True,219,7
+Low (95/2.5/2.5),A*,8,True,112,6
+Low (95/2.5/2.5),A*,9,False,300,8
+Low (95/2.5/2.5),A*,10,True,98,3
+Low (95/2.5/2.5),A*,11,True,39,1
+Low (95/2.5/2.5),A*,12,True,161,5
+Low (95/2.5/2.5),A*,13,False,300,10
+Low (95/2.5/2.5),A*,14,True,49,2
+Low (95/2.5/2.5),A*,15,True,126,2
+Low (95/2.5/2.5),A*,16,True,38,0
+Low (95/2.5/2.5),A*,17,True,38,0
+Low (95/2.5/2.5),A*,18,True,58,3
+Low (95/2.5/2.5),A*,19,True,78,3
+Low (95/2.5/2.5),A*,20,True,38,0
+Low (95/2.5/2.5),A*,21,True,188,4
+Low (95/2.5/2.5),A*,22,True,41,1
+Low (95/2.5/2.5),A*,23,True,200,2
+Low (95/2.5/2.5),A*,24,True,210,6
+Low (95/2.5/2.5),A*,25,True,39,1
+Low (95/2.5/2.5),A*,26,True,79,6
+Low (95/2.5/2.5),A*,27,True,72,3
+Low (95/2.5/2.5),A*,28,True,228,9
+Low (95/2.5/2.5),A*,29,True,41,1
+Low (95/2.5/2.5),A*,30,True,89,5
+Low (95/2.5/2.5),A*,31,True,154,6
+Low (95/2.5/2.5),A*,32,True,131,4
+Low (95/2.5/2.5),A*,33,True,260,14
+Low (95/2.5/2.5),A*,34,True,38,0
+Low (95/2.5/2.5),A*,35,True,189,5
+Low (95/2.5/2.5),A*,36,False,300,4
+Low (95/2.5/2.5),A*,37,True,126,5
+Low (95/2.5/2.5),A*,38,True,124,5
+Low (95/2.5/2.5),A*,39,True,38,0
+Low (95/2.5/2.5),A*,40,True,215,10
+Low (95/2.5/2.5),A*,41,True,40,0
+Low (95/2.5/2.5),A*,42,False,300,7
+Low (95/2.5/2.5),A*,43,True,86,5
+Low (95/2.5/2.5),A*,44,True,150,4
+Low (95/2.5/2.5),A*,45,False,300,8
+Low (95/2.5/2.5),A*,46,True,41,3
+Low (95/2.5/2.5),A*,47,True,123,6
+Low (95/2.5/2.5),A*,48,True,38,0
+Low (95/2.5/2.5),A*,49,True,212,4
+Low (95/2.5/2.5),A*,50,True,203,7
+Low (95/2.5/2.5),A*,51,True,38,0
+Low (95/2.5/2.5),A*,52,True,168,5
+Low (95/2.5/2.5),A*,53,True,40,1
+Low (95/2.5/2.5),A*,54,True,126,4
+Low (95/2.5/2.5),A*,55,True,119,3
+Low (95/2.5/2.5),A*,56,False,300,5
+Low (95/2.5/2.5),A*,57,True,70,2
+Low (95/2.5/2.5),A*,58,True,123,3
+Low (95/2.5/2.5),A*,59,True,40,1
+Low (95/2.5/2.5),A*,60,True,126,9
+Low (95/2.5/2.5),A*,61,True,140,6
+Low (95/2.5/2.5),A*,62,True,187,9
+Low (95/2.5/2.5),A*,63,True,40,1
+Low (95/2.5/2.5),A*,64,True,38,0
+Low (95/2.5/2.5),A*,65,True,39,1
+Low (95/2.5/2.5),A*,66,True,38,0
+Low (95/2.5/2.5),A*,67,True,69,5
+Low (95/2.5/2.5),A*,68,True,65,6
+Low (95/2.5/2.5),A*,69,True,40,0
+Low (95/2.5/2.5),A*,70,True,40,2
+Low (95/2.5/2.5),A*,71,True,113,5
+Low (95/2.5/2.5),A*,72,True,38,0
+Low (95/2.5/2.5),A*,73,True,39,1
+Low (95/2.5/2.5),A*,74,True,38,0
+Low (95/2.5/2.5),A*,75,True,38,2
+Low (95/2.5/2.5),A*,76,True,148,6
+Low (95/2.5/2.5),A*,77,True,38,0
+Low (95/2.5/2.5),A*,78,True,158,9
+Low (95/2.5/2.5),A*,79,True,41,2
+Low (95/2.5/2.5),A*,80,True,156,4
+Low (95/2.5/2.5),A*,81,True,79,3
+Low (95/2.5/2.5),A*,82,True,138,7
+Low (95/2.5/2.5),A*,83,True,40,3
+Low (95/2.5/2.5),A*,84,True,72,6
+Low (95/2.5/2.5),A*,85,True,38,0
+Low (95/2.5/2.5),A*,86,True,39,1
+Low (95/2.5/2.5),A*,87,True,181,6
+Low (95/2.5/2.5),A*,88,True,70,3
+Low (95/2.5/2.5),A*,89,True,39,1
+Low (95/2.5/2.5),A*,90,True,101,7
+Low (95/2.5/2.5),A*,91,True,99,4
+Low (95/2.5/2.5),A*,92,True,38,0
+Low (95/2.5/2.5),A*,93,False,300,10
+Low (95/2.5/2.5),A*,94,True,211,8
+Low (95/2.5/2.5),A*,95,True,186,13
+Low (95/2.5/2.5),A*,96,True,41,2
+Low (95/2.5/2.5),A*,97,True,137,4
+Low (95/2.5/2.5),A*,98,True,107,6
+Low (95/2.5/2.5),A*,99,True,108,4
+Low (95/2.5/2.5),A*,100,True,111,4
+Low (95/2.5/2.5),A*,101,True,88,4
+Low (95/2.5/2.5),A*,102,True,38,0
+Low (95/2.5/2.5),A*,103,True,38,0
+Low (95/2.5/2.5),A*,104,False,300,4
+Low (95/2.5/2.5),A*,105,True,38,0
+Low (95/2.5/2.5),A*,106,True,153,7
+Low (95/2.5/2.5),A*,107,True,43,4
+Low (95/2.5/2.5),A*,108,True,65,2
+Low (95/2.5/2.5),A*,109,True,78,5
+Low (95/2.5/2.5),A*,110,True,85,3
+Low (95/2.5/2.5),A*,111,True,152,4
+Low (95/2.5/2.5),A*,112,True,252,9
+Low (95/2.5/2.5),A*,113,True,100,3
+Low (95/2.5/2.5),A*,114,True,214,4
+Low (95/2.5/2.5),A*,115,True,115,5
+Low (95/2.5/2.5),A*,116,False,300,12
+Low (95/2.5/2.5),A*,117,True,91,6
+Low (95/2.5/2.5),A*,118,False,300,7
+Low (95/2.5/2.5),A*,119,True,96,3
+Low (95/2.5/2.5),A*,120,True,192,9
+Low (95/2.5/2.5),A*,121,True,104,5
+Low (95/2.5/2.5),A*,122,True,39,1
+Low (95/2.5/2.5),A*,123,True,95,2
+Low (95/2.5/2.5),A*,124,True,80,4
+Low (95/2.5/2.5),A*,125,True,40,1
+Low (95/2.5/2.5),A*,126,True,89,4
+Low (95/2.5/2.5),A*,127,True,40,1
+Low (95/2.5/2.5),A*,128,True,42,2
+Low (95/2.5/2.5),A*,129,True,146,7
+Low (95/2.5/2.5),A*,130,True,165,3
+Low (95/2.5/2.5),A*,131,True,50,2
+Low (95/2.5/2.5),A*,132,True,250,8
+Low (95/2.5/2.5),A*,133,True,39,3
+Low (95/2.5/2.5),A*,134,True,40,0
+Low (95/2.5/2.5),A*,135,True,129,8
+Low (95/2.5/2.5),A*,136,True,44,2
+Low (95/2.5/2.5),A*,137,True,96,3
+Low (95/2.5/2.5),A*,138,True,87,5
+Low (95/2.5/2.5),A*,139,True,147,5
+Low (95/2.5/2.5),A*,140,True,39,1
+Low (95/2.5/2.5),A*,141,True,44,2
+Low (95/2.5/2.5),A*,142,True,190,5
+Low (95/2.5/2.5),A*,143,True,198,8
+Low (95/2.5/2.5),A*,144,True,44,2
+Low (95/2.5/2.5),A*,145,True,38,0
+Low (95/2.5/2.5),A*,146,True,93,4
+Low (95/2.5/2.5),A*,147,True,112,5
+Low (95/2.5/2.5),A*,148,True,38,0
+Low (95/2.5/2.5),A*,149,True,76,5
+Low (95/2.5/2.5),A*,150,True,121,5
+Low (95/2.5/2.5),A*,151,True,118,11
+Low (95/2.5/2.5),A*,152,True,39,1
+Low (95/2.5/2.5),A*,153,True,40,1
+Low (95/2.5/2.5),A*,154,True,185,7
+Low (95/2.5/2.5),A*,155,True,40,1
+Low (95/2.5/2.5),A*,156,True,40,1
+Low (95/2.5/2.5),A*,157,True,122,8
+Low (95/2.5/2.5),A*,158,True,127,6
+Low (95/2.5/2.5),A*,159,True,70,6
+Low (95/2.5/2.5),A*,160,True,41,3
+Low (95/2.5/2.5),A*,161,True,38,0
+Low (95/2.5/2.5),A*,162,True,120,7
+Low (95/2.5/2.5),A*,163,True,38,0
+Low (95/2.5/2.5),A*,164,True,118,3
+Low (95/2.5/2.5),A*,165,True,241,10
+Low (95/2.5/2.5),A*,166,True,107,3
+Low (95/2.5/2.5),A*,167,True,123,6
+Low (95/2.5/2.5),A*,168,True,284,13
+Low (95/2.5/2.5),A*,169,True,38,0
+Low (95/2.5/2.5),A*,170,True,42,3
+Low (95/2.5/2.5),A*,171,True,39,1
+Low (95/2.5/2.5),A*,172,True,38,0
+Low (95/2.5/2.5),A*,173,True,51,4
+Low (95/2.5/2.5),A*,174,True,172,8
+Low (95/2.5/2.5),A*,175,True,179,4
+Low (95/2.5/2.5),A*,176,False,300,13
+Low (95/2.5/2.5),A*,177,True,38,0
+Low (95/2.5/2.5),A*,178,True,74,2
+Low (95/2.5/2.5),A*,179,True,63,5
+Low (95/2.5/2.5),A*,180,True,38,0
+Low (95/2.5/2.5),A*,181,True,175,9
+Low (95/2.5/2.5),A*,182,True,154,8
+Low (95/2.5/2.5),A*,183,True,53,3
+Low (95/2.5/2.5),A*,184,True,181,6
+Low (95/2.5/2.5),A*,185,True,38,0
+Low (95/2.5/2.5),A*,186,True,286,12
+Low (95/2.5/2.5),A*,187,True,209,5
+Low (95/2.5/2.5),A*,188,True,125,6
+Low (95/2.5/2.5),A*,189,True,39,1
+Low (95/2.5/2.5),A*,190,True,256,5
+Low (95/2.5/2.5),A*,191,False,300,8
+Low (95/2.5/2.5),A*,192,True,112,8
+Low (95/2.5/2.5),A*,193,True,41,0
+Low (95/2.5/2.5),A*,194,True,127,4
+Low (95/2.5/2.5),A*,195,True,49,4
+Low (95/2.5/2.5),A*,196,True,108,5
+Low (95/2.5/2.5),A*,197,True,125,4
+Low (95/2.5/2.5),A*,198,True,135,5
+Low (95/2.5/2.5),A*,199,True,283,9
+Low (95/2.5/2.5),RRT-Connect,0,True,214,9
+Low (95/2.5/2.5),RRT-Connect,1,False,300,11
+Low (95/2.5/2.5),RRT-Connect,2,True,281,13
+Low (95/2.5/2.5),RRT-Connect,3,False,300,12
+Low (95/2.5/2.5),RRT-Connect,4,False,300,11
+Low (95/2.5/2.5),RRT-Connect,5,True,190,14
+Low (95/2.5/2.5),RRT-Connect,6,True,284,9
+Low (95/2.5/2.5),RRT-Connect,7,False,300,10
+Low (95/2.5/2.5),RRT-Connect,8,False,300,6
+Low (95/2.5/2.5),RRT-Connect,9,False,300,8
+Low (95/2.5/2.5),RRT-Connect,10,False,300,6
+Low (95/2.5/2.5),RRT-Connect,11,False,300,10
+Low (95/2.5/2.5),RRT-Connect,12,False,300,11
+Low (95/2.5/2.5),RRT-Connect,13,False,300,12
+Low (95/2.5/2.5),RRT-Connect,14,True,268,10
+Low (95/2.5/2.5),RRT-Connect,15,False,300,10
+Low (95/2.5/2.5),RRT-Connect,16,False,300,10
+Low (95/2.5/2.5),RRT-Connect,17,True,245,11
+Low (95/2.5/2.5),RRT-Connect,18,True,172,7
+Low (95/2.5/2.5),RRT-Connect,19,True,294,12
+Low (95/2.5/2.5),RRT-Connect,20,True,239,11
+Low (95/2.5/2.5),RRT-Connect,21,True,273,11
+Low (95/2.5/2.5),RRT-Connect,22,True,179,7
+Low (95/2.5/2.5),RRT-Connect,23,True,296,14
+Low (95/2.5/2.5),RRT-Connect,24,False,300,10
+Low (95/2.5/2.5),RRT-Connect,25,True,270,9
+Low (95/2.5/2.5),RRT-Connect,26,True,128,10
+Low (95/2.5/2.5),RRT-Connect,27,True,208,9
+Low (95/2.5/2.5),RRT-Connect,28,True,238,10
+Low (95/2.5/2.5),RRT-Connect,29,True,162,7
+Low (95/2.5/2.5),RRT-Connect,30,True,237,11
+Low (95/2.5/2.5),RRT-Connect,31,False,300,8
+Low (95/2.5/2.5),RRT-Connect,32,True,237,7
+Low (95/2.5/2.5),RRT-Connect,33,False,300,19
+Low (95/2.5/2.5),RRT-Connect,34,True,180,11
+Low (95/2.5/2.5),RRT-Connect,35,True,218,10
+Low (95/2.5/2.5),RRT-Connect,36,False,300,13
+Low (95/2.5/2.5),RRT-Connect,37,True,235,11
+Low (95/2.5/2.5),RRT-Connect,38,True,224,10
+Low (95/2.5/2.5),RRT-Connect,39,True,261,10
+Low (95/2.5/2.5),RRT-Connect,40,False,300,11
+Low (95/2.5/2.5),RRT-Connect,41,False,300,7
+Low (95/2.5/2.5),RRT-Connect,42,False,300,8
+Low (95/2.5/2.5),RRT-Connect,43,True,177,11
+Low (95/2.5/2.5),RRT-Connect,44,True,180,8
+Low (95/2.5/2.5),RRT-Connect,45,True,169,9
+Low (95/2.5/2.5),RRT-Connect,46,True,146,6
+Low (95/2.5/2.5),RRT-Connect,47,False,300,12
+Low (95/2.5/2.5),RRT-Connect,48,True,175,7
+Low (95/2.5/2.5),RRT-Connect,49,True,239,8
+Low (95/2.5/2.5),RRT-Connect,50,False,300,12
+Low (95/2.5/2.5),RRT-Connect,51,True,197,7
+Low (95/2.5/2.5),RRT-Connect,52,False,300,11
+Low (95/2.5/2.5),RRT-Connect,53,True,273,6
+Low (95/2.5/2.5),RRT-Connect,54,True,161,8
+Low (95/2.5/2.5),RRT-Connect,55,False,300,10
+Low (95/2.5/2.5),RRT-Connect,56,True,202,12
+Low (95/2.5/2.5),RRT-Connect,57,True,239,8
+Low (95/2.5/2.5),RRT-Connect,58,False,300,9
+Low (95/2.5/2.5),RRT-Connect,59,True,236,7
+Low (95/2.5/2.5),RRT-Connect,60,True,178,12
+Low (95/2.5/2.5),RRT-Connect,61,True,194,10
+Low (95/2.5/2.5),RRT-Connect,62,True,299,14
+Low (95/2.5/2.5),RRT-Connect,63,True,199,10
+Low (95/2.5/2.5),RRT-Connect,64,True,218,10
+Low (95/2.5/2.5),RRT-Connect,65,True,164,6
+Low (95/2.5/2.5),RRT-Connect,66,False,300,12
+Low (95/2.5/2.5),RRT-Connect,67,True,210,11
+Low (95/2.5/2.5),RRT-Connect,68,True,114,9
+Low (95/2.5/2.5),RRT-Connect,69,True,242,6
+Low (95/2.5/2.5),RRT-Connect,70,True,220,10
+Low (95/2.5/2.5),RRT-Connect,71,True,173,9
+Low (95/2.5/2.5),RRT-Connect,72,True,276,9
+Low (95/2.5/2.5),RRT-Connect,73,True,145,7
+Low (95/2.5/2.5),RRT-Connect,74,True,221,6
+Low (95/2.5/2.5),RRT-Connect,75,True,278,11
+Low (95/2.5/2.5),RRT-Connect,76,False,300,7
+Low (95/2.5/2.5),RRT-Connect,77,True,176,6
+Low (95/2.5/2.5),RRT-Connect,78,False,300,14
+Low (95/2.5/2.5),RRT-Connect,79,True,156,7
+Low (95/2.5/2.5),RRT-Connect,80,True,229,11
+Low (95/2.5/2.5),RRT-Connect,81,True,175,7
+Low (95/2.5/2.5),RRT-Connect,82,True,140,10
+Low (95/2.5/2.5),RRT-Connect,83,False,300,9
+Low (95/2.5/2.5),RRT-Connect,84,True,160,10
+Low (95/2.5/2.5),RRT-Connect,85,True,280,10
+Low (95/2.5/2.5),RRT-Connect,86,True,192,5
+Low (95/2.5/2.5),RRT-Connect,87,True,181,8
+Low (95/2.5/2.5),RRT-Connect,88,True,123,6
+Low (95/2.5/2.5),RRT-Connect,89,True,138,7
+Low (95/2.5/2.5),RRT-Connect,90,True,215,10
+Low (95/2.5/2.5),RRT-Connect,91,True,143,9
+Low (95/2.5/2.5),RRT-Connect,92,True,206,7
+Low (95/2.5/2.5),RRT-Connect,93,False,300,11
+Low (95/2.5/2.5),RRT-Connect,94,False,300,11
+Low (95/2.5/2.5),RRT-Connect,95,True,233,15
+Low (95/2.5/2.5),RRT-Connect,96,True,129,7
+Low (95/2.5/2.5),RRT-Connect,97,True,270,12
+Low (95/2.5/2.5),RRT-Connect,98,True,131,8
+Low (95/2.5/2.5),RRT-Connect,99,True,258,13
+Low (95/2.5/2.5),RRT-Connect,100,True,113,7
+Low (95/2.5/2.5),RRT-Connect,101,True,214,8
+Low (95/2.5/2.5),RRT-Connect,102,True,117,7
+Low (95/2.5/2.5),RRT-Connect,103,False,300,10
+Low (95/2.5/2.5),RRT-Connect,104,False,300,11
+Low (95/2.5/2.5),RRT-Connect,105,True,213,10
+Low (95/2.5/2.5),RRT-Connect,106,False,300,10
+Low (95/2.5/2.5),RRT-Connect,107,True,217,9
+Low (95/2.5/2.5),RRT-Connect,108,False,300,4
+Low (95/2.5/2.5),RRT-Connect,109,True,160,9
+Low (95/2.5/2.5),RRT-Connect,110,True,234,8
+Low (95/2.5/2.5),RRT-Connect,111,False,300,13
+Low (95/2.5/2.5),RRT-Connect,112,True,252,10
+Low (95/2.5/2.5),RRT-Connect,113,True,151,6
+Low (95/2.5/2.5),RRT-Connect,114,True,280,11
+Low (95/2.5/2.5),RRT-Connect,115,True,162,8
+Low (95/2.5/2.5),RRT-Connect,116,True,248,7
+Low (95/2.5/2.5),RRT-Connect,117,True,118,8
+Low (95/2.5/2.5),RRT-Connect,118,True,293,10
+Low (95/2.5/2.5),RRT-Connect,119,False,300,11
+Low (95/2.5/2.5),RRT-Connect,120,True,216,14
+Low (95/2.5/2.5),RRT-Connect,121,True,259,15
+Low (95/2.5/2.5),RRT-Connect,122,True,239,7
+Low (95/2.5/2.5),RRT-Connect,123,True,138,6
+Low (95/2.5/2.5),RRT-Connect,124,False,300,12
+Low (95/2.5/2.5),RRT-Connect,125,True,66,5
+Low (95/2.5/2.5),RRT-Connect,126,True,240,7
+Low (95/2.5/2.5),RRT-Connect,127,True,129,8
+Low (95/2.5/2.5),RRT-Connect,128,True,109,5
+Low (95/2.5/2.5),RRT-Connect,129,True,249,12
+Low (95/2.5/2.5),RRT-Connect,130,False,300,9
+Low (95/2.5/2.5),RRT-Connect,131,True,105,7
+Low (95/2.5/2.5),RRT-Connect,132,False,300,13
+Low (95/2.5/2.5),RRT-Connect,133,False,300,11
+Low (95/2.5/2.5),RRT-Connect,134,True,94,6
+Low (95/2.5/2.5),RRT-Connect,135,True,145,9
+Low (95/2.5/2.5),RRT-Connect,136,True,221,11
+Low (95/2.5/2.5),RRT-Connect,137,True,156,8
+Low (95/2.5/2.5),RRT-Connect,138,True,171,9
+Low (95/2.5/2.5),RRT-Connect,139,True,157,12
+Low (95/2.5/2.5),RRT-Connect,140,True,276,7
+Low (95/2.5/2.5),RRT-Connect,141,True,226,13
+Low (95/2.5/2.5),RRT-Connect,142,True,263,8
+Low (95/2.5/2.5),RRT-Connect,143,True,296,13
+Low (95/2.5/2.5),RRT-Connect,144,True,229,5
+Low (95/2.5/2.5),RRT-Connect,145,False,300,10
+Low (95/2.5/2.5),RRT-Connect,146,True,132,6
+Low (95/2.5/2.5),RRT-Connect,147,True,172,8
+Low (95/2.5/2.5),RRT-Connect,148,True,197,6
+Low (95/2.5/2.5),RRT-Connect,149,True,183,9
+Low (95/2.5/2.5),RRT-Connect,150,True,245,11
+Low (95/2.5/2.5),RRT-Connect,151,True,259,14
+Low (95/2.5/2.5),RRT-Connect,152,True,104,5
+Low (95/2.5/2.5),RRT-Connect,153,False,300,6
+Low (95/2.5/2.5),RRT-Connect,154,False,300,10
+Low (95/2.5/2.5),RRT-Connect,155,True,283,12
+Low (95/2.5/2.5),RRT-Connect,156,True,122,7
+Low (95/2.5/2.5),RRT-Connect,157,True,144,10
+Low (95/2.5/2.5),RRT-Connect,158,True,193,12
+Low (95/2.5/2.5),RRT-Connect,159,True,194,14
+Low (95/2.5/2.5),RRT-Connect,160,True,223,10
+Low (95/2.5/2.5),RRT-Connect,161,True,159,10
+Low (95/2.5/2.5),RRT-Connect,162,True,138,11
+Low (95/2.5/2.5),RRT-Connect,163,True,262,8
+Low (95/2.5/2.5),RRT-Connect,164,True,232,12
+Low (95/2.5/2.5),RRT-Connect,165,True,282,10
+Low (95/2.5/2.5),RRT-Connect,166,True,204,7
+Low (95/2.5/2.5),RRT-Connect,167,False,300,8
+Low (95/2.5/2.5),RRT-Connect,168,True,245,11
+Low (95/2.5/2.5),RRT-Connect,169,True,267,11
+Low (95/2.5/2.5),RRT-Connect,170,True,297,11
+Low (95/2.5/2.5),RRT-Connect,171,True,106,5
+Low (95/2.5/2.5),RRT-Connect,172,False,300,9
+Low (95/2.5/2.5),RRT-Connect,173,True,235,9
+Low (95/2.5/2.5),RRT-Connect,174,True,231,11
+Low (95/2.5/2.5),RRT-Connect,175,True,289,14
+Low (95/2.5/2.5),RRT-Connect,176,True,262,14
+Low (95/2.5/2.5),RRT-Connect,177,True,231,9
+Low (95/2.5/2.5),RRT-Connect,178,True,198,8
+Low (95/2.5/2.5),RRT-Connect,179,False,300,13
+Low (95/2.5/2.5),RRT-Connect,180,True,285,7
+Low (95/2.5/2.5),RRT-Connect,181,True,249,15
+Low (95/2.5/2.5),RRT-Connect,182,True,298,11
+Low (95/2.5/2.5),RRT-Connect,183,True,297,16
+Low (95/2.5/2.5),RRT-Connect,184,True,225,10
+Low (95/2.5/2.5),RRT-Connect,185,True,284,10
+Low (95/2.5/2.5),RRT-Connect,186,False,300,14
+Low (95/2.5/2.5),RRT-Connect,187,True,213,8
+Low (95/2.5/2.5),RRT-Connect,188,True,235,12
+Low (95/2.5/2.5),RRT-Connect,189,True,263,9
+Low (95/2.5/2.5),RRT-Connect,190,False,300,10
+Low (95/2.5/2.5),RRT-Connect,191,False,300,12
+Low (95/2.5/2.5),RRT-Connect,192,True,153,10
+Low (95/2.5/2.5),RRT-Connect,193,True,215,8
+Low (95/2.5/2.5),RRT-Connect,194,False,300,12
+Low (95/2.5/2.5),RRT-Connect,195,True,221,9
+Low (95/2.5/2.5),RRT-Connect,196,True,183,13
+Low (95/2.5/2.5),RRT-Connect,197,True,236,10
+Low (95/2.5/2.5),RRT-Connect,198,False,300,5
+Low (95/2.5/2.5),RRT-Connect,199,False,300,12
+Low (95/2.5/2.5),MDP Policy,0,True,40,2
+Low (95/2.5/2.5),MDP Policy,1,True,42,3
+Low (95/2.5/2.5),MDP Policy,2,True,38,0
+Low (95/2.5/2.5),MDP Policy,3,True,38,1
+Low (95/2.5/2.5),MDP Policy,4,True,41,2
+Low (95/2.5/2.5),MDP Policy,5,True,42,3
+Low (95/2.5/2.5),MDP Policy,6,True,41,2
+Low (95/2.5/2.5),MDP Policy,7,True,40,2
+Low (95/2.5/2.5),MDP Policy,8,True,41,3
+Low (95/2.5/2.5),MDP Policy,9,True,42,3
+Low (95/2.5/2.5),MDP Policy,10,True,40,1
+Low (95/2.5/2.5),MDP Policy,11,True,38,1
+Low (95/2.5/2.5),MDP Policy,12,True,43,3
+Low (95/2.5/2.5),MDP Policy,13,True,44,3
+Low (95/2.5/2.5),MDP Policy,14,True,40,2
+Low (95/2.5/2.5),MDP Policy,15,True,38,1
+Low (95/2.5/2.5),MDP Policy,16,True,38,0
+Low (95/2.5/2.5),MDP Policy,17,True,38,0
+Low (95/2.5/2.5),MDP Policy,18,True,38,1
+Low (95/2.5/2.5),MDP Policy,19,True,38,1
+Low (95/2.5/2.5),MDP Policy,20,True,38,0
+Low (95/2.5/2.5),MDP Policy,21,True,39,0
+Low (95/2.5/2.5),MDP Policy,22,True,39,1
+Low (95/2.5/2.5),MDP Policy,23,True,39,0
+Low (95/2.5/2.5),MDP Policy,24,True,42,2
+Low (95/2.5/2.5),MDP Policy,25,True,38,1
+Low (95/2.5/2.5),MDP Policy,26,True,42,3
+Low (95/2.5/2.5),MDP Policy,27,True,38,1
+Low (95/2.5/2.5),MDP Policy,28,True,45,5
+Low (95/2.5/2.5),MDP Policy,29,True,40,1
+Low (95/2.5/2.5),MDP Policy,30,True,41,2
+Low (95/2.5/2.5),MDP Policy,31,True,41,2
+Low (95/2.5/2.5),MDP Policy,32,True,40,2
+Low (95/2.5/2.5),MDP Policy,33,True,46,5
+Low (95/2.5/2.5),MDP Policy,34,True,38,0
+Low (95/2.5/2.5),MDP Policy,35,True,39,2
+Low (95/2.5/2.5),MDP Policy,36,True,41,1
+Low (95/2.5/2.5),MDP Policy,37,True,42,2
+Low (95/2.5/2.5),MDP Policy,38,True,44,3
+Low (95/2.5/2.5),MDP Policy,39,True,38,0
+Low (95/2.5/2.5),MDP Policy,40,True,40,2
+Low (95/2.5/2.5),MDP Policy,41,True,39,0
+Low (95/2.5/2.5),MDP Policy,42,True,43,2
+Low (95/2.5/2.5),MDP Policy,43,True,44,4
+Low (95/2.5/2.5),MDP Policy,44,True,42,3
+Low (95/2.5/2.5),MDP Policy,45,True,41,2
+Low (95/2.5/2.5),MDP Policy,46,True,41,2
+Low (95/2.5/2.5),MDP Policy,47,True,41,1
+Low (95/2.5/2.5),MDP Policy,48,True,38,0
+Low (95/2.5/2.5),MDP Policy,49,True,40,2
+Low (95/2.5/2.5),MDP Policy,50,True,40,2
+Low (95/2.5/2.5),MDP Policy,51,True,38,0
+Low (95/2.5/2.5),MDP Policy,52,True,41,1
+Low (95/2.5/2.5),MDP Policy,53,True,40,1
+Low (95/2.5/2.5),MDP Policy,54,True,41,2
+Low (95/2.5/2.5),MDP Policy,55,True,40,0
+Low (95/2.5/2.5),MDP Policy,56,True,42,4
+Low (95/2.5/2.5),MDP Policy,57,True,38,1
+Low (95/2.5/2.5),MDP Policy,58,True,40,1
+Low (95/2.5/2.5),MDP Policy,59,True,40,1
+Low (95/2.5/2.5),MDP Policy,60,True,40,5
+Low (95/2.5/2.5),MDP Policy,61,True,42,2
+Low (95/2.5/2.5),MDP Policy,62,True,44,5
+Low (95/2.5/2.5),MDP Policy,63,True,40,1
+Low (95/2.5/2.5),MDP Policy,64,True,38,0
+Low (95/2.5/2.5),MDP Policy,65,True,38,1
+Low (95/2.5/2.5),MDP Policy,66,True,38,0
+Low (95/2.5/2.5),MDP Policy,67,True,46,4
+Low (95/2.5/2.5),MDP Policy,68,True,42,4
+Low (95/2.5/2.5),MDP Policy,69,True,38,1
+Low (95/2.5/2.5),MDP Policy,70,True,39,2
+Low (95/2.5/2.5),MDP Policy,71,True,39,1
+Low (95/2.5/2.5),MDP Policy,72,True,38,0
+Low (95/2.5/2.5),MDP Policy,73,True,40,2
+Low (95/2.5/2.5),MDP Policy,74,True,38,0
+Low (95/2.5/2.5),MDP Policy,75,True,38,2
+Low (95/2.5/2.5),MDP Policy,76,True,43,3
+Low (95/2.5/2.5),MDP Policy,77,True,38,0
+Low (95/2.5/2.5),MDP Policy,78,True,42,2
+Low (95/2.5/2.5),MDP Policy,79,True,40,2
+Low (95/2.5/2.5),MDP Policy,80,True,38,2
+Low (95/2.5/2.5),MDP Policy,81,True,40,3
+Low (95/2.5/2.5),MDP Policy,82,True,40,4
+Low (95/2.5/2.5),MDP Policy,83,True,41,2
+Low (95/2.5/2.5),MDP Policy,84,True,40,4
+Low (95/2.5/2.5),MDP Policy,85,True,38,0
+Low (95/2.5/2.5),MDP Policy,86,True,38,1
+Low (95/2.5/2.5),MDP Policy,87,True,42,3
+Low (95/2.5/2.5),MDP Policy,88,True,41,1
+Low (95/2.5/2.5),MDP Policy,89,True,38,1
+Low (95/2.5/2.5),MDP Policy,90,True,42,4
+Low (95/2.5/2.5),MDP Policy,91,True,38,1
+Low (95/2.5/2.5),MDP Policy,92,True,38,0
+Low (95/2.5/2.5),MDP Policy,93,True,42,3
+Low (95/2.5/2.5),MDP Policy,94,True,42,3
+Low (95/2.5/2.5),MDP Policy,95,True,44,4
+Low (95/2.5/2.5),MDP Policy,96,True,40,2
+Low (95/2.5/2.5),MDP Policy,97,True,39,2
+Low (95/2.5/2.5),MDP Policy,98,True,42,3
+Low (95/2.5/2.5),MDP Policy,99,True,40,2
+Low (95/2.5/2.5),MDP Policy,100,True,39,1
+Low (95/2.5/2.5),MDP Policy,101,True,42,3
+Low (95/2.5/2.5),MDP Policy,102,True,38,0
+Low (95/2.5/2.5),MDP Policy,103,True,38,0
+Low (95/2.5/2.5),MDP Policy,104,True,38,1
+Low (95/2.5/2.5),MDP Policy,105,True,38,0
+Low (95/2.5/2.5),MDP Policy,106,True,41,2
+Low (95/2.5/2.5),MDP Policy,107,True,42,4
+Low (95/2.5/2.5),MDP Policy,108,True,38,1
+Low (95/2.5/2.5),MDP Policy,109,True,40,2
+Low (95/2.5/2.5),MDP Policy,110,True,40,1
+Low (95/2.5/2.5),MDP Policy,111,True,39,2
+Low (95/2.5/2.5),MDP Policy,112,True,42,4
+Low (95/2.5/2.5),MDP Policy,113,True,40,1
+Low (95/2.5/2.5),MDP Policy,114,True,42,3
+Low (95/2.5/2.5),MDP Policy,115,True,43,2
+Low (95/2.5/2.5),MDP Policy,116,True,38,3
+Low (95/2.5/2.5),MDP Policy,117,True,42,3
+Low (95/2.5/2.5),MDP Policy,118,True,38,3
+Low (95/2.5/2.5),MDP Policy,119,True,38,1
+Low (95/2.5/2.5),MDP Policy,120,True,44,5
+Low (95/2.5/2.5),MDP Policy,121,True,42,2
+Low (95/2.5/2.5),MDP Policy,122,True,38,1
+Low (95/2.5/2.5),MDP Policy,123,True,38,1
+Low (95/2.5/2.5),MDP Policy,124,True,42,3
+Low (95/2.5/2.5),MDP Policy,125,True,39,1
+Low (95/2.5/2.5),MDP Policy,126,True,42,3
+Low (95/2.5/2.5),MDP Policy,127,True,40,1
+Low (95/2.5/2.5),MDP Policy,128,True,38,2
+Low (95/2.5/2.5),MDP Policy,129,True,40,1
+Low (95/2.5/2.5),MDP Policy,130,True,38,1
+Low (95/2.5/2.5),MDP Policy,131,True,40,2
+Low (95/2.5/2.5),MDP Policy,132,True,44,4
+Low (95/2.5/2.5),MDP Policy,133,True,39,2
+Low (95/2.5/2.5),MDP Policy,134,True,38,1
+Low (95/2.5/2.5),MDP Policy,135,True,41,2
+Low (95/2.5/2.5),MDP Policy,136,True,44,3
+Low (95/2.5/2.5),MDP Policy,137,True,38,1
+Low (95/2.5/2.5),MDP Policy,138,True,42,2
+Low (95/2.5/2.5),MDP Policy,139,True,43,2
+Low (95/2.5/2.5),MDP Policy,140,True,38,1
+Low (95/2.5/2.5),MDP Policy,141,True,44,4
+Low (95/2.5/2.5),MDP Policy,142,True,42,2
+Low (95/2.5/2.5),MDP Policy,143,True,42,2
+Low (95/2.5/2.5),MDP Policy,144,True,38,2
+Low (95/2.5/2.5),MDP Policy,145,True,38,0
+Low (95/2.5/2.5),MDP Policy,146,True,38,2
+Low (95/2.5/2.5),MDP Policy,147,True,40,2
+Low (95/2.5/2.5),MDP Policy,148,True,38,0
+Low (95/2.5/2.5),MDP Policy,149,True,43,2
+Low (95/2.5/2.5),MDP Policy,150,True,41,1
+Low (95/2.5/2.5),MDP Policy,151,True,48,6
+Low (95/2.5/2.5),MDP Policy,152,True,38,1
+Low (95/2.5/2.5),MDP Policy,153,True,40,1
+Low (95/2.5/2.5),MDP Policy,154,True,39,1
+Low (95/2.5/2.5),MDP Policy,155,True,40,1
+Low (95/2.5/2.5),MDP Policy,156,True,40,1
+Low (95/2.5/2.5),MDP Policy,157,True,41,1
+Low (95/2.5/2.5),MDP Policy,158,True,44,4
+Low (95/2.5/2.5),MDP Policy,159,True,42,3
+Low (95/2.5/2.5),MDP Policy,160,True,40,3
+Low (95/2.5/2.5),MDP Policy,161,True,38,0
+Low (95/2.5/2.5),MDP Policy,162,True,40,3
+Low (95/2.5/2.5),MDP Policy,163,True,38,0
+Low (95/2.5/2.5),MDP Policy,164,True,40,1
+Low (95/2.5/2.5),MDP Policy,165,True,46,4
+Low (95/2.5/2.5),MDP Policy,166,True,38,1
+Low (95/2.5/2.5),MDP Policy,167,True,44,3
+Low (95/2.5/2.5),MDP Policy,168,True,38,1
+Low (95/2.5/2.5),MDP Policy,169,True,38,0
+Low (95/2.5/2.5),MDP Policy,170,True,42,3
+Low (95/2.5/2.5),MDP Policy,171,True,38,1
+Low (95/2.5/2.5),MDP Policy,172,True,38,0
+Low (95/2.5/2.5),MDP Policy,173,True,38,4
+Low (95/2.5/2.5),MDP Policy,174,True,42,3
+Low (95/2.5/2.5),MDP Policy,175,True,43,3
+Low (95/2.5/2.5),MDP Policy,176,True,42,3
+Low (95/2.5/2.5),MDP Policy,177,True,38,0
+Low (95/2.5/2.5),MDP Policy,178,True,40,1
+Low (95/2.5/2.5),MDP Policy,179,True,41,2
+Low (95/2.5/2.5),MDP Policy,180,True,38,0
+Low (95/2.5/2.5),MDP Policy,181,True,42,3
+Low (95/2.5/2.5),MDP Policy,182,True,40,3
+Low (95/2.5/2.5),MDP Policy,183,True,40,1
+Low (95/2.5/2.5),MDP Policy,184,True,40,2
+Low (95/2.5/2.5),MDP Policy,185,True,38,0
+Low (95/2.5/2.5),MDP Policy,186,True,44,5
+Low (95/2.5/2.5),MDP Policy,187,True,39,1
+Low (95/2.5/2.5),MDP Policy,188,True,44,3
+Low (95/2.5/2.5),MDP Policy,189,True,38,1
+Low (95/2.5/2.5),MDP Policy,190,True,42,3
+Low (95/2.5/2.5),MDP Policy,191,True,41,1
+Low (95/2.5/2.5),MDP Policy,192,True,42,3
+Low (95/2.5/2.5),MDP Policy,193,True,38,1
+Low (95/2.5/2.5),MDP Policy,194,True,39,0
+Low (95/2.5/2.5),MDP Policy,195,True,40,2
+Low (95/2.5/2.5),MDP Policy,196,True,40,2
+Low (95/2.5/2.5),MDP Policy,197,True,38,2
+Low (95/2.5/2.5),MDP Policy,198,True,39,1
+Low (95/2.5/2.5),MDP Policy,199,True,41,2
+Medium (80/10/10),Dijkstra,0,True,126,12
+Medium (80/10/10),Dijkstra,1,True,76,10
+Medium (80/10/10),Dijkstra,2,True,45,3
+Medium (80/10/10),Dijkstra,3,True,112,11
+Medium (80/10/10),Dijkstra,4,False,300,26
+Medium (80/10/10),Dijkstra,5,True,48,7
+Medium (80/10/10),Dijkstra,6,True,150,19
+Medium (80/10/10),Dijkstra,7,True,170,26
+Medium (80/10/10),Dijkstra,8,True,50,9
+Medium (80/10/10),Dijkstra,9,True,87,15
+Medium (80/10/10),Dijkstra,10,True,65,9
+Medium (80/10/10),Dijkstra,11,True,134,20
+Medium (80/10/10),Dijkstra,12,True,100,18
+Medium (80/10/10),Dijkstra,13,True,93,14
+Medium (80/10/10),Dijkstra,14,True,103,12
+Medium (80/10/10),Dijkstra,15,True,109,14
+Medium (80/10/10),Dijkstra,16,True,103,12
+Medium (80/10/10),Dijkstra,17,True,67,6
+Medium (80/10/10),Dijkstra,18,True,121,13
+Medium (80/10/10),Dijkstra,19,True,51,5
+Medium (80/10/10),Dijkstra,20,True,124,15
+Medium (80/10/10),Dijkstra,21,True,137,25
+Medium (80/10/10),Dijkstra,22,True,161,23
+Medium (80/10/10),Dijkstra,23,True,157,26
+Medium (80/10/10),Dijkstra,24,True,295,37
+Medium (80/10/10),Dijkstra,25,True,71,8
+Medium (80/10/10),Dijkstra,26,True,51,10
+Medium (80/10/10),Dijkstra,27,True,66,10
+Medium (80/10/10),Dijkstra,28,True,66,10
+Medium (80/10/10),Dijkstra,29,True,120,21
+Medium (80/10/10),Dijkstra,30,True,122,18
+Medium (80/10/10),Dijkstra,31,True,152,17
+Medium (80/10/10),Dijkstra,32,True,62,9
+Medium (80/10/10),Dijkstra,33,True,113,19
+Medium (80/10/10),Dijkstra,34,True,117,26
+Medium (80/10/10),Dijkstra,35,True,71,14
+Medium (80/10/10),Dijkstra,36,True,84,9
+Medium (80/10/10),Dijkstra,37,True,126,22
+Medium (80/10/10),Dijkstra,38,True,67,7
+Medium (80/10/10),Dijkstra,39,True,94,20
+Medium (80/10/10),Dijkstra,40,True,58,9
+Medium (80/10/10),Dijkstra,41,True,149,18
+Medium (80/10/10),Dijkstra,42,True,145,21
+Medium (80/10/10),Dijkstra,43,True,136,23
+Medium (80/10/10),Dijkstra,44,True,135,16
+Medium (80/10/10),Dijkstra,45,True,94,13
+Medium (80/10/10),Dijkstra,46,True,92,9
+Medium (80/10/10),Dijkstra,47,True,73,10
+Medium (80/10/10),Dijkstra,48,True,123,10
+Medium (80/10/10),Dijkstra,49,True,130,20
+Medium (80/10/10),Dijkstra,50,True,102,12
+Medium (80/10/10),Dijkstra,51,True,128,16
+Medium (80/10/10),Dijkstra,52,True,86,12
+Medium (80/10/10),Dijkstra,53,True,126,21
+Medium (80/10/10),Dijkstra,54,True,128,15
+Medium (80/10/10),Dijkstra,55,True,114,17
+Medium (80/10/10),Dijkstra,56,True,86,12
+Medium (80/10/10),Dijkstra,57,True,120,19
+Medium (80/10/10),Dijkstra,58,True,117,13
+Medium (80/10/10),Dijkstra,59,True,46,9
+Medium (80/10/10),Dijkstra,60,True,46,6
+Medium (80/10/10),Dijkstra,61,True,140,19
+Medium (80/10/10),Dijkstra,62,True,58,11
+Medium (80/10/10),Dijkstra,63,True,55,10
+Medium (80/10/10),Dijkstra,64,True,50,4
+Medium (80/10/10),Dijkstra,65,True,45,2
+Medium (80/10/10),Dijkstra,66,True,46,4
+Medium (80/10/10),Dijkstra,67,True,115,15
+Medium (80/10/10),Dijkstra,68,True,107,11
+Medium (80/10/10),Dijkstra,69,True,44,2
+Medium (80/10/10),Dijkstra,70,True,85,20
+Medium (80/10/10),Dijkstra,71,True,77,14
+Medium (80/10/10),Dijkstra,72,True,134,19
+Medium (80/10/10),Dijkstra,73,True,98,12
+Medium (80/10/10),Dijkstra,74,True,98,12
+Medium (80/10/10),Dijkstra,75,True,48,7
+Medium (80/10/10),Dijkstra,76,True,121,17
+Medium (80/10/10),Dijkstra,77,True,61,7
+Medium (80/10/10),Dijkstra,78,True,105,16
+Medium (80/10/10),Dijkstra,79,True,127,16
+Medium (80/10/10),Dijkstra,80,True,63,16
+Medium (80/10/10),Dijkstra,81,True,53,9
+Medium (80/10/10),Dijkstra,82,True,133,16
+Medium (80/10/10),Dijkstra,83,True,124,19
+Medium (80/10/10),Dijkstra,84,True,116,17
+Medium (80/10/10),Dijkstra,85,True,84,11
+Medium (80/10/10),Dijkstra,86,True,142,19
+Medium (80/10/10),Dijkstra,87,True,43,7
+Medium (80/10/10),Dijkstra,88,True,84,11
+Medium (80/10/10),Dijkstra,89,True,123,12
+Medium (80/10/10),Dijkstra,90,True,63,14
+Medium (80/10/10),Dijkstra,91,True,133,20
+Medium (80/10/10),Dijkstra,92,True,103,14
+Medium (80/10/10),Dijkstra,93,True,132,14
+Medium (80/10/10),Dijkstra,94,True,158,13
+Medium (80/10/10),Dijkstra,95,True,69,12
+Medium (80/10/10),Dijkstra,96,True,59,10
+Medium (80/10/10),Dijkstra,97,False,300,35
+Medium (80/10/10),Dijkstra,98,True,103,11
+Medium (80/10/10),Dijkstra,99,True,141,23
+Medium (80/10/10),Dijkstra,100,True,89,18
+Medium (80/10/10),Dijkstra,101,True,108,15
+Medium (80/10/10),Dijkstra,102,True,119,13
+Medium (80/10/10),Dijkstra,103,True,101,13
+Medium (80/10/10),Dijkstra,104,True,48,3
+Medium (80/10/10),Dijkstra,105,True,165,15
+Medium (80/10/10),Dijkstra,106,True,105,16
+Medium (80/10/10),Dijkstra,107,True,85,9
+Medium (80/10/10),Dijkstra,108,True,79,11
+Medium (80/10/10),Dijkstra,109,True,131,20
+Medium (80/10/10),Dijkstra,110,True,85,8
+Medium (80/10/10),Dijkstra,111,True,55,13
+Medium (80/10/10),Dijkstra,112,True,100,14
+Medium (80/10/10),Dijkstra,113,True,124,18
+Medium (80/10/10),Dijkstra,114,True,112,10
+Medium (80/10/10),Dijkstra,115,True,94,10
+Medium (80/10/10),Dijkstra,116,True,158,17
+Medium (80/10/10),Dijkstra,117,True,91,15
+Medium (80/10/10),Dijkstra,118,True,71,13
+Medium (80/10/10),Dijkstra,119,True,94,11
+Medium (80/10/10),Dijkstra,120,True,99,11
+Medium (80/10/10),Dijkstra,121,True,89,13
+Medium (80/10/10),Dijkstra,122,True,110,22
+Medium (80/10/10),Dijkstra,123,True,138,19
+Medium (80/10/10),Dijkstra,124,True,44,6
+Medium (80/10/10),Dijkstra,125,True,66,14
+Medium (80/10/10),Dijkstra,126,True,159,17
+Medium (80/10/10),Dijkstra,127,True,56,6
+Medium (80/10/10),Dijkstra,128,True,101,13
+Medium (80/10/10),Dijkstra,129,True,77,7
+Medium (80/10/10),Dijkstra,130,True,104,19
+Medium (80/10/10),Dijkstra,131,True,125,20
+Medium (80/10/10),Dijkstra,132,True,139,20
+Medium (80/10/10),Dijkstra,133,True,107,17
+Medium (80/10/10),Dijkstra,134,True,112,20
+Medium (80/10/10),Dijkstra,135,True,72,14
+Medium (80/10/10),Dijkstra,136,True,72,5
+Medium (80/10/10),Dijkstra,137,True,121,16
+Medium (80/10/10),Dijkstra,138,True,75,15
+Medium (80/10/10),Dijkstra,139,True,53,10
+Medium (80/10/10),Dijkstra,140,True,177,17
+Medium (80/10/10),Dijkstra,141,False,300,32
+Medium (80/10/10),Dijkstra,142,True,162,25
+Medium (80/10/10),Dijkstra,143,True,102,12
+Medium (80/10/10),Dijkstra,144,True,171,17
+Medium (80/10/10),Dijkstra,145,True,61,5
+Medium (80/10/10),Dijkstra,146,True,71,12
+Medium (80/10/10),Dijkstra,147,True,52,6
+Medium (80/10/10),Dijkstra,148,True,67,6
+Medium (80/10/10),Dijkstra,149,True,183,29
+Medium (80/10/10),Dijkstra,150,True,120,15
+Medium (80/10/10),Dijkstra,151,True,142,21
+Medium (80/10/10),Dijkstra,152,False,300,35
+Medium (80/10/10),Dijkstra,153,True,141,16
+Medium (80/10/10),Dijkstra,154,True,126,22
+Medium (80/10/10),Dijkstra,155,True,204,27
+Medium (80/10/10),Dijkstra,156,True,121,16
+Medium (80/10/10),Dijkstra,157,True,64,14
+Medium (80/10/10),Dijkstra,158,True,118,26
+Medium (80/10/10),Dijkstra,159,True,50,10
+Medium (80/10/10),Dijkstra,160,True,65,10
+Medium (80/10/10),Dijkstra,161,True,110,15
+Medium (80/10/10),Dijkstra,162,True,120,20
+Medium (80/10/10),Dijkstra,163,True,68,11
+Medium (80/10/10),Dijkstra,164,True,118,17
+Medium (80/10/10),Dijkstra,165,True,89,8
+Medium (80/10/10),Dijkstra,166,True,62,8
+Medium (80/10/10),Dijkstra,167,True,175,24
+Medium (80/10/10),Dijkstra,168,True,51,7
+Medium (80/10/10),Dijkstra,169,True,224,30
+Medium (80/10/10),Dijkstra,170,True,69,13
+Medium (80/10/10),Dijkstra,171,True,58,10
+Medium (80/10/10),Dijkstra,172,True,112,14
+Medium (80/10/10),Dijkstra,173,True,98,14
+Medium (80/10/10),Dijkstra,174,True,78,11
+Medium (80/10/10),Dijkstra,175,True,104,12
+Medium (80/10/10),Dijkstra,176,True,98,17
+Medium (80/10/10),Dijkstra,177,True,67,13
+Medium (80/10/10),Dijkstra,178,True,124,15
+Medium (80/10/10),Dijkstra,179,True,134,18
+Medium (80/10/10),Dijkstra,180,True,129,14
+Medium (80/10/10),Dijkstra,181,True,64,9
+Medium (80/10/10),Dijkstra,182,True,146,22
+Medium (80/10/10),Dijkstra,183,True,118,13
+Medium (80/10/10),Dijkstra,184,True,156,20
+Medium (80/10/10),Dijkstra,185,True,51,8
+Medium (80/10/10),Dijkstra,186,True,60,9
+Medium (80/10/10),Dijkstra,187,True,140,20
+Medium (80/10/10),Dijkstra,188,True,59,9
+Medium (80/10/10),Dijkstra,189,True,185,28
+Medium (80/10/10),Dijkstra,190,True,79,11
+Medium (80/10/10),Dijkstra,191,True,107,18
+Medium (80/10/10),Dijkstra,192,True,112,16
+Medium (80/10/10),Dijkstra,193,True,82,16
+Medium (80/10/10),Dijkstra,194,True,242,34
+Medium (80/10/10),Dijkstra,195,True,51,8
+Medium (80/10/10),Dijkstra,196,True,82,19
+Medium (80/10/10),Dijkstra,197,True,67,6
+Medium (80/10/10),Dijkstra,198,True,73,8
+Medium (80/10/10),Dijkstra,199,True,120,22
+Medium (80/10/10),A*,0,True,93,12
+Medium (80/10/10),A*,1,True,80,11
+Medium (80/10/10),A*,2,True,64,7
+Medium (80/10/10),A*,3,True,99,10
+Medium (80/10/10),A*,4,True,121,19
+Medium (80/10/10),A*,5,True,68,8
+Medium (80/10/10),A*,6,True,151,22
+Medium (80/10/10),A*,7,True,96,11
+Medium (80/10/10),A*,8,False,300,37
+Medium (80/10/10),A*,9,True,117,18
+Medium (80/10/10),A*,10,True,100,13
+Medium (80/10/10),A*,11,True,76,11
+Medium (80/10/10),A*,12,True,111,17
+Medium (80/10/10),A*,13,True,84,13
+Medium (80/10/10),A*,14,True,86,10
+Medium (80/10/10),A*,15,True,92,10
+Medium (80/10/10),A*,16,True,103,15
+Medium (80/10/10),A*,17,True,135,25
+Medium (80/10/10),A*,18,True,171,24
+Medium (80/10/10),A*,19,True,59,8
+Medium (80/10/10),A*,20,True,131,19
+Medium (80/10/10),A*,21,True,118,21
+Medium (80/10/10),A*,22,True,77,10
+Medium (80/10/10),A*,23,True,70,13
+Medium (80/10/10),A*,24,True,295,39
+Medium (80/10/10),A*,25,True,112,13
+Medium (80/10/10),A*,26,True,73,10
+Medium (80/10/10),A*,27,True,72,17
+Medium (80/10/10),A*,28,True,66,12
+Medium (80/10/10),A*,29,True,120,22
+Medium (80/10/10),A*,30,True,91,9
+Medium (80/10/10),A*,31,True,118,14
+Medium (80/10/10),A*,32,True,134,11
+Medium (80/10/10),A*,33,True,129,23
+Medium (80/10/10),A*,34,True,86,21
+Medium (80/10/10),A*,35,True,71,15
+Medium (80/10/10),A*,36,True,84,10
+Medium (80/10/10),A*,37,True,126,19
+Medium (80/10/10),A*,38,True,81,11
+Medium (80/10/10),A*,39,True,94,23
+Medium (80/10/10),A*,40,True,92,15
+Medium (80/10/10),A*,41,True,93,8
+Medium (80/10/10),A*,42,True,145,21
+Medium (80/10/10),A*,43,True,96,13
+Medium (80/10/10),A*,44,True,97,18
+Medium (80/10/10),A*,45,True,93,17
+Medium (80/10/10),A*,46,True,122,12
+Medium (80/10/10),A*,47,True,85,9
+Medium (80/10/10),A*,48,True,53,4
+Medium (80/10/10),A*,49,True,96,19
+Medium (80/10/10),A*,50,True,75,10
+Medium (80/10/10),A*,51,True,108,8
+Medium (80/10/10),A*,52,True,67,10
+Medium (80/10/10),A*,53,True,114,19
+Medium (80/10/10),A*,54,True,126,17
+Medium (80/10/10),A*,55,True,100,16
+Medium (80/10/10),A*,56,True,94,11
+Medium (80/10/10),A*,57,True,84,11
+Medium (80/10/10),A*,58,True,55,9
+Medium (80/10/10),A*,59,True,124,17
+Medium (80/10/10),A*,60,True,61,11
+Medium (80/10/10),A*,61,True,128,14
+Medium (80/10/10),A*,62,True,99,19
+Medium (80/10/10),A*,63,True,56,10
+Medium (80/10/10),A*,64,True,50,4
+Medium (80/10/10),A*,65,True,42,2
+Medium (80/10/10),A*,66,True,75,7
+Medium (80/10/10),A*,67,True,74,9
+Medium (80/10/10),A*,68,True,67,11
+Medium (80/10/10),A*,69,True,70,7
+Medium (80/10/10),A*,70,True,220,27
+Medium (80/10/10),A*,71,True,77,13
+Medium (80/10/10),A*,72,True,162,25
+Medium (80/10/10),A*,73,True,70,7
+Medium (80/10/10),A*,74,True,73,9
+Medium (80/10/10),A*,75,True,69,11
+Medium (80/10/10),A*,76,True,121,20
+Medium (80/10/10),A*,77,False,300,23
+Medium (80/10/10),A*,78,True,82,16
+Medium (80/10/10),A*,79,True,78,14
+Medium (80/10/10),A*,80,True,63,13
+Medium (80/10/10),A*,81,True,85,13
+Medium (80/10/10),A*,82,True,78,14
+Medium (80/10/10),A*,83,True,98,18
+Medium (80/10/10),A*,84,True,91,16
+Medium (80/10/10),A*,85,True,84,12
+Medium (80/10/10),A*,86,True,107,12
+Medium (80/10/10),A*,87,True,98,12
+Medium (80/10/10),A*,88,True,75,13
+Medium (80/10/10),A*,89,True,44,6
+Medium (80/10/10),A*,90,True,87,16
+Medium (80/10/10),A*,91,True,133,20
+Medium (80/10/10),A*,92,True,120,21
+Medium (80/10/10),A*,93,True,132,13
+Medium (80/10/10),A*,94,True,158,15
+Medium (80/10/10),A*,95,True,130,22
+Medium (80/10/10),A*,96,True,99,18
+Medium (80/10/10),A*,97,False,300,35
+Medium (80/10/10),A*,98,True,114,17
+Medium (80/10/10),A*,99,True,108,19
+Medium (80/10/10),A*,100,True,116,23
+Medium (80/10/10),A*,101,True,117,15
+Medium (80/10/10),A*,102,True,90,12
+Medium (80/10/10),A*,103,True,123,22
+Medium (80/10/10),A*,104,True,125,17
+Medium (80/10/10),A*,105,True,88,11
+Medium (80/10/10),A*,106,True,117,18
+Medium (80/10/10),A*,107,True,51,11
+Medium (80/10/10),A*,108,True,79,12
+Medium (80/10/10),A*,109,True,59,12
+Medium (80/10/10),A*,110,True,83,7
+Medium (80/10/10),A*,111,True,93,15
+Medium (80/10/10),A*,112,True,138,18
+Medium (80/10/10),A*,113,True,113,14
+Medium (80/10/10),A*,114,True,112,10
+Medium (80/10/10),A*,115,True,117,12
+Medium (80/10/10),A*,116,True,100,10
+Medium (80/10/10),A*,117,True,89,18
+Medium (80/10/10),A*,118,True,80,16
+Medium (80/10/10),A*,119,True,94,11
+Medium (80/10/10),A*,120,True,97,11
+Medium (80/10/10),A*,121,True,89,14
+Medium (80/10/10),A*,122,True,110,21
+Medium (80/10/10),A*,123,True,123,9
+Medium (80/10/10),A*,124,True,79,8
+Medium (80/10/10),A*,125,True,196,38
+Medium (80/10/10),A*,126,True,110,15
+Medium (80/10/10),A*,127,True,52,6
+Medium (80/10/10),A*,128,True,114,13
+Medium (80/10/10),A*,129,True,86,10
+Medium (80/10/10),A*,130,True,100,19
+Medium (80/10/10),A*,131,True,63,11
+Medium (80/10/10),A*,132,True,139,20
+Medium (80/10/10),A*,133,True,141,17
+Medium (80/10/10),A*,134,True,112,23
+Medium (80/10/10),A*,135,True,72,15
+Medium (80/10/10),A*,136,True,62,6
+Medium (80/10/10),A*,137,True,121,16
+Medium (80/10/10),A*,138,True,108,14
+Medium (80/10/10),A*,139,True,92,14
+Medium (80/10/10),A*,140,True,100,11
+Medium (80/10/10),A*,141,False,300,33
+Medium (80/10/10),A*,142,True,162,26
+Medium (80/10/10),A*,143,True,102,11
+Medium (80/10/10),A*,144,True,96,10
+Medium (80/10/10),A*,145,True,107,9
+Medium (80/10/10),A*,146,True,63,13
+Medium (80/10/10),A*,147,True,124,13
+Medium (80/10/10),A*,148,True,75,11
+Medium (80/10/10),A*,149,True,101,21
+Medium (80/10/10),A*,150,True,172,17
+Medium (80/10/10),A*,151,True,87,17
+Medium (80/10/10),A*,152,False,300,36
+Medium (80/10/10),A*,153,True,73,8
+Medium (80/10/10),A*,154,True,115,15
+Medium (80/10/10),A*,155,True,82,7
+Medium (80/10/10),A*,156,True,53,7
+Medium (80/10/10),A*,157,True,64,16
+Medium (80/10/10),A*,158,True,128,25
+Medium (80/10/10),A*,159,True,141,20
+Medium (80/10/10),A*,160,True,73,13
+Medium (80/10/10),A*,161,False,300,30
+Medium (80/10/10),A*,162,True,89,15
+Medium (80/10/10),A*,163,True,159,21
+Medium (80/10/10),A*,164,True,142,26
+Medium (80/10/10),A*,165,True,105,16
+Medium (80/10/10),A*,166,True,116,21
+Medium (80/10/10),A*,167,True,175,24
+Medium (80/10/10),A*,168,True,106,13
+Medium (80/10/10),A*,169,True,137,20
+Medium (80/10/10),A*,170,True,69,13
+Medium (80/10/10),A*,171,True,73,13
+Medium (80/10/10),A*,172,True,56,5
+Medium (80/10/10),A*,173,True,85,12
+Medium (80/10/10),A*,174,True,109,14
+Medium (80/10/10),A*,175,True,129,16
+Medium (80/10/10),A*,176,True,87,13
+Medium (80/10/10),A*,177,True,67,13
+Medium (80/10/10),A*,178,True,105,20
+Medium (80/10/10),A*,179,True,134,19
+Medium (80/10/10),A*,180,True,129,13
+Medium (80/10/10),A*,181,True,106,25
+Medium (80/10/10),A*,182,True,95,16
+Medium (80/10/10),A*,183,True,129,17
+Medium (80/10/10),A*,184,True,88,11
+Medium (80/10/10),A*,185,True,67,12
+Medium (80/10/10),A*,186,True,69,13
+Medium (80/10/10),A*,187,True,70,5
+Medium (80/10/10),A*,188,True,59,13
+Medium (80/10/10),A*,189,True,185,18
+Medium (80/10/10),A*,190,True,58,8
+Medium (80/10/10),A*,191,True,58,10
+Medium (80/10/10),A*,192,True,89,11
+Medium (80/10/10),A*,193,True,115,24
+Medium (80/10/10),A*,194,True,141,23
+Medium (80/10/10),A*,195,True,219,21
+Medium (80/10/10),A*,196,True,74,17
+Medium (80/10/10),A*,197,True,73,8
+Medium (80/10/10),A*,198,True,73,7
+Medium (80/10/10),A*,199,True,120,21
+Medium (80/10/10),RRT-Connect,0,True,93,14
+Medium (80/10/10),RRT-Connect,1,True,80,12
+Medium (80/10/10),RRT-Connect,2,True,115,12
+Medium (80/10/10),RRT-Connect,3,True,130,16
+Medium (80/10/10),RRT-Connect,4,True,121,19
+Medium (80/10/10),RRT-Connect,5,True,175,35
+Medium (80/10/10),RRT-Connect,6,False,300,32
+Medium (80/10/10),RRT-Connect,7,True,96,12
+Medium (80/10/10),RRT-Connect,8,True,92,12
+Medium (80/10/10),RRT-Connect,9,True,106,15
+Medium (80/10/10),RRT-Connect,10,True,100,13
+Medium (80/10/10),RRT-Connect,11,True,114,11
+Medium (80/10/10),RRT-Connect,12,True,100,21
+Medium (80/10/10),RRT-Connect,13,False,300,25
+Medium (80/10/10),RRT-Connect,14,True,94,13
+Medium (80/10/10),RRT-Connect,15,True,107,13
+Medium (80/10/10),RRT-Connect,16,True,90,9
+Medium (80/10/10),RRT-Connect,17,True,135,25
+Medium (80/10/10),RRT-Connect,18,True,110,15
+Medium (80/10/10),RRT-Connect,19,True,110,20
+Medium (80/10/10),RRT-Connect,20,True,176,24
+Medium (80/10/10),RRT-Connect,21,True,185,34
+Medium (80/10/10),RRT-Connect,22,True,131,16
+Medium (80/10/10),RRT-Connect,23,True,157,31
+Medium (80/10/10),RRT-Connect,24,True,136,24
+Medium (80/10/10),RRT-Connect,25,False,300,24
+Medium (80/10/10),RRT-Connect,26,True,78,14
+Medium (80/10/10),RRT-Connect,27,True,99,20
+Medium (80/10/10),RRT-Connect,28,True,113,18
+Medium (80/10/10),RRT-Connect,29,False,300,34
+Medium (80/10/10),RRT-Connect,30,True,97,18
+Medium (80/10/10),RRT-Connect,31,True,118,17
+Medium (80/10/10),RRT-Connect,32,True,131,13
+Medium (80/10/10),RRT-Connect,33,True,113,22
+Medium (80/10/10),RRT-Connect,34,True,86,18
+Medium (80/10/10),RRT-Connect,35,True,111,16
+Medium (80/10/10),RRT-Connect,36,True,129,21
+Medium (80/10/10),RRT-Connect,37,True,126,22
+Medium (80/10/10),RRT-Connect,38,True,98,13
+Medium (80/10/10),RRT-Connect,39,True,94,23
+Medium (80/10/10),RRT-Connect,40,True,105,17
+Medium (80/10/10),RRT-Connect,41,True,149,19
+Medium (80/10/10),RRT-Connect,42,True,108,12
+Medium (80/10/10),RRT-Connect,43,True,96,17
+Medium (80/10/10),RRT-Connect,44,True,171,27
+Medium (80/10/10),RRT-Connect,45,True,238,34
+Medium (80/10/10),RRT-Connect,46,True,122,13
+Medium (80/10/10),RRT-Connect,47,True,85,11
+Medium (80/10/10),RRT-Connect,48,True,117,13
+Medium (80/10/10),RRT-Connect,49,True,96,19
+Medium (80/10/10),RRT-Connect,50,True,70,12
+Medium (80/10/10),RRT-Connect,51,True,128,17
+Medium (80/10/10),RRT-Connect,52,True,143,17
+Medium (80/10/10),RRT-Connect,53,False,300,30
+Medium (80/10/10),RRT-Connect,54,True,128,18
+Medium (80/10/10),RRT-Connect,55,True,95,18
+Medium (80/10/10),RRT-Connect,56,False,300,25
+Medium (80/10/10),RRT-Connect,57,True,120,20
+Medium (80/10/10),RRT-Connect,58,True,94,11
+Medium (80/10/10),RRT-Connect,59,True,267,32
+Medium (80/10/10),RRT-Connect,60,True,69,12
+Medium (80/10/10),RRT-Connect,61,True,234,29
+Medium (80/10/10),RRT-Connect,62,True,94,20
+Medium (80/10/10),RRT-Connect,63,True,94,18
+Medium (80/10/10),RRT-Connect,64,True,101,16
+Medium (80/10/10),RRT-Connect,65,True,82,10
+Medium (80/10/10),RRT-Connect,66,True,94,10
+Medium (80/10/10),RRT-Connect,67,True,105,17
+Medium (80/10/10),RRT-Connect,68,True,73,14
+Medium (80/10/10),RRT-Connect,69,True,186,25
+Medium (80/10/10),RRT-Connect,70,True,87,18
+Medium (80/10/10),RRT-Connect,71,True,77,12
+Medium (80/10/10),RRT-Connect,72,True,162,25
+Medium (80/10/10),RRT-Connect,73,True,91,13
+Medium (80/10/10),RRT-Connect,74,True,135,11
+Medium (80/10/10),RRT-Connect,75,True,114,18
+Medium (80/10/10),RRT-Connect,76,True,193,27
+Medium (80/10/10),RRT-Connect,77,False,300,24
+Medium (80/10/10),RRT-Connect,78,True,105,16
+Medium (80/10/10),RRT-Connect,79,True,106,14
+Medium (80/10/10),RRT-Connect,80,True,63,13
+Medium (80/10/10),RRT-Connect,81,True,104,14
+Medium (80/10/10),RRT-Connect,82,True,100,19
+Medium (80/10/10),RRT-Connect,83,True,124,18
+Medium (80/10/10),RRT-Connect,84,True,83,15
+Medium (80/10/10),RRT-Connect,85,True,122,17
+Medium (80/10/10),RRT-Connect,86,True,122,18
+Medium (80/10/10),RRT-Connect,87,True,92,11
+Medium (80/10/10),RRT-Connect,88,True,84,17
+Medium (80/10/10),RRT-Connect,89,True,71,10
+Medium (80/10/10),RRT-Connect,90,True,87,16
+Medium (80/10/10),RRT-Connect,91,True,99,13
+Medium (80/10/10),RRT-Connect,92,True,120,19
+Medium (80/10/10),RRT-Connect,93,True,168,30
+Medium (80/10/10),RRT-Connect,94,True,158,18
+Medium (80/10/10),RRT-Connect,95,True,67,15
+Medium (80/10/10),RRT-Connect,96,True,99,18
+Medium (80/10/10),RRT-Connect,97,True,91,15
+Medium (80/10/10),RRT-Connect,98,True,114,15
+Medium (80/10/10),RRT-Connect,99,True,141,23
+Medium (80/10/10),RRT-Connect,100,True,136,20
+Medium (80/10/10),RRT-Connect,101,True,120,20
+Medium (80/10/10),RRT-Connect,102,True,111,15
+Medium (80/10/10),RRT-Connect,103,True,123,19
+Medium (80/10/10),RRT-Connect,104,True,99,12
+Medium (80/10/10),RRT-Connect,105,True,119,13
+Medium (80/10/10),RRT-Connect,106,True,153,26
+Medium (80/10/10),RRT-Connect,107,True,92,13
+Medium (80/10/10),RRT-Connect,108,True,95,11
+Medium (80/10/10),RRT-Connect,109,True,71,11
+Medium (80/10/10),RRT-Connect,110,True,138,13
+Medium (80/10/10),RRT-Connect,111,True,93,18
+Medium (80/10/10),RRT-Connect,112,True,134,16
+Medium (80/10/10),RRT-Connect,113,True,143,23
+Medium (80/10/10),RRT-Connect,114,True,112,12
+Medium (80/10/10),RRT-Connect,115,True,136,20
+Medium (80/10/10),RRT-Connect,116,True,186,25
+Medium (80/10/10),RRT-Connect,117,True,91,18
+Medium (80/10/10),RRT-Connect,118,False,300,26
+Medium (80/10/10),RRT-Connect,119,True,173,22
+Medium (80/10/10),RRT-Connect,120,True,112,21
+Medium (80/10/10),RRT-Connect,121,True,89,15
+Medium (80/10/10),RRT-Connect,122,True,190,27
+Medium (80/10/10),RRT-Connect,123,True,128,19
+Medium (80/10/10),RRT-Connect,124,True,92,14
+Medium (80/10/10),RRT-Connect,125,True,71,15
+Medium (80/10/10),RRT-Connect,126,True,110,16
+Medium (80/10/10),RRT-Connect,127,True,121,18
+Medium (80/10/10),RRT-Connect,128,True,116,22
+Medium (80/10/10),RRT-Connect,129,True,96,13
+Medium (80/10/10),RRT-Connect,130,True,100,19
+Medium (80/10/10),RRT-Connect,131,True,120,16
+Medium (80/10/10),RRT-Connect,132,True,139,20
+Medium (80/10/10),RRT-Connect,133,True,141,21
+Medium (80/10/10),RRT-Connect,134,True,294,32
+Medium (80/10/10),RRT-Connect,135,True,101,20
+Medium (80/10/10),RRT-Connect,136,True,91,14
+Medium (80/10/10),RRT-Connect,137,True,241,32
+Medium (80/10/10),RRT-Connect,138,True,108,17
+Medium (80/10/10),RRT-Connect,139,True,92,17
+Medium (80/10/10),RRT-Connect,140,True,100,12
+Medium (80/10/10),RRT-Connect,141,False,300,33
+Medium (80/10/10),RRT-Connect,142,True,162,25
+Medium (80/10/10),RRT-Connect,143,True,108,17
+Medium (80/10/10),RRT-Connect,144,True,171,22
+Medium (80/10/10),RRT-Connect,145,True,142,10
+Medium (80/10/10),RRT-Connect,146,True,91,21
+Medium (80/10/10),RRT-Connect,147,True,110,14
+Medium (80/10/10),RRT-Connect,148,True,94,16
+Medium (80/10/10),RRT-Connect,149,True,111,25
+Medium (80/10/10),RRT-Connect,150,True,172,19
+Medium (80/10/10),RRT-Connect,151,True,64,13
+Medium (80/10/10),RRT-Connect,152,True,123,22
+Medium (80/10/10),RRT-Connect,153,True,101,10
+Medium (80/10/10),RRT-Connect,154,False,300,29
+Medium (80/10/10),RRT-Connect,155,True,134,12
+Medium (80/10/10),RRT-Connect,156,True,96,19
+Medium (80/10/10),RRT-Connect,157,True,115,17
+Medium (80/10/10),RRT-Connect,158,True,118,24
+Medium (80/10/10),RRT-Connect,159,True,135,18
+Medium (80/10/10),RRT-Connect,160,True,100,17
+Medium (80/10/10),RRT-Connect,161,False,300,31
+Medium (80/10/10),RRT-Connect,162,True,89,15
+Medium (80/10/10),RRT-Connect,163,True,81,20
+Medium (80/10/10),RRT-Connect,164,True,118,19
+Medium (80/10/10),RRT-Connect,165,False,300,24
+Medium (80/10/10),RRT-Connect,166,True,135,25
+Medium (80/10/10),RRT-Connect,167,False,300,35
+Medium (80/10/10),RRT-Connect,168,True,106,14
+Medium (80/10/10),RRT-Connect,169,True,99,13
+Medium (80/10/10),RRT-Connect,170,True,111,21
+Medium (80/10/10),RRT-Connect,171,True,95,19
+Medium (80/10/10),RRT-Connect,172,True,112,19
+Medium (80/10/10),RRT-Connect,173,True,121,24
+Medium (80/10/10),RRT-Connect,174,True,172,20
+Medium (80/10/10),RRT-Connect,175,True,197,31
+Medium (80/10/10),RRT-Connect,176,True,100,17
+Medium (80/10/10),RRT-Connect,177,True,100,18
+Medium (80/10/10),RRT-Connect,178,True,105,17
+Medium (80/10/10),RRT-Connect,179,True,134,20
+Medium (80/10/10),RRT-Connect,180,True,147,25
+Medium (80/10/10),RRT-Connect,181,True,106,25
+Medium (80/10/10),RRT-Connect,182,True,166,25
+Medium (80/10/10),RRT-Connect,183,True,103,13
+Medium (80/10/10),RRT-Connect,184,True,135,18
+Medium (80/10/10),RRT-Connect,185,True,104,17
+Medium (80/10/10),RRT-Connect,186,True,62,11
+Medium (80/10/10),RRT-Connect,187,True,94,10
+Medium (80/10/10),RRT-Connect,188,True,104,14
+Medium (80/10/10),RRT-Connect,189,True,185,22
+Medium (80/10/10),RRT-Connect,190,True,81,13
+Medium (80/10/10),RRT-Connect,191,True,95,16
+Medium (80/10/10),RRT-Connect,192,True,89,9
+Medium (80/10/10),RRT-Connect,193,True,99,18
+Medium (80/10/10),RRT-Connect,194,True,164,17
+Medium (80/10/10),RRT-Connect,195,True,219,23
+Medium (80/10/10),RRT-Connect,196,True,125,27
+Medium (80/10/10),RRT-Connect,197,True,110,16
+Medium (80/10/10),RRT-Connect,198,True,98,14
+Medium (80/10/10),RRT-Connect,199,True,116,22
+Medium (80/10/10),MDP Policy,0,True,52,8
+Medium (80/10/10),MDP Policy,1,True,60,10
+Medium (80/10/10),MDP Policy,2,True,73,9
+Medium (80/10/10),MDP Policy,3,True,57,6
+Medium (80/10/10),MDP Policy,4,True,58,11
+Medium (80/10/10),MDP Policy,5,True,58,10
+Medium (80/10/10),MDP Policy,6,True,55,8
+Medium (80/10/10),MDP Policy,7,True,42,7
+Medium (80/10/10),MDP Policy,8,True,48,6
+Medium (80/10/10),MDP Policy,9,True,60,12
+Medium (80/10/10),MDP Policy,10,True,87,15
+Medium (80/10/10),MDP Policy,11,True,60,9
+Medium (80/10/10),MDP Policy,12,True,118,26
+Medium (80/10/10),MDP Policy,13,True,49,7
+Medium (80/10/10),MDP Policy,14,True,63,9
+Medium (80/10/10),MDP Policy,15,True,45,5
+Medium (80/10/10),MDP Policy,16,True,48,3
+Medium (80/10/10),MDP Policy,17,True,80,15
+Medium (80/10/10),MDP Policy,18,True,77,15
+Medium (80/10/10),MDP Policy,19,True,51,6
+Medium (80/10/10),MDP Policy,20,True,123,18
+Medium (80/10/10),MDP Policy,21,True,58,12
+Medium (80/10/10),MDP Policy,22,True,57,8
+Medium (80/10/10),MDP Policy,23,True,62,12
+Medium (80/10/10),MDP Policy,24,True,82,23
+Medium (80/10/10),MDP Policy,25,True,55,7
+Medium (80/10/10),MDP Policy,26,True,53,9
+Medium (80/10/10),MDP Policy,27,True,72,16
+Medium (80/10/10),MDP Policy,28,True,67,16
+Medium (80/10/10),MDP Policy,29,True,71,17
+Medium (80/10/10),MDP Policy,30,True,46,6
+Medium (80/10/10),MDP Policy,31,True,51,8
+Medium (80/10/10),MDP Policy,32,True,51,7
+Medium (80/10/10),MDP Policy,33,True,56,10
+Medium (80/10/10),MDP Policy,34,True,56,14
+Medium (80/10/10),MDP Policy,35,True,86,18
+Medium (80/10/10),MDP Policy,36,True,67,8
+Medium (80/10/10),MDP Policy,37,True,56,12
+Medium (80/10/10),MDP Policy,38,True,54,9
+Medium (80/10/10),MDP Policy,39,True,73,18
+Medium (80/10/10),MDP Policy,40,True,71,13
+Medium (80/10/10),MDP Policy,41,True,70,9
+Medium (80/10/10),MDP Policy,42,True,66,11
+Medium (80/10/10),MDP Policy,43,True,56,13
+Medium (80/10/10),MDP Policy,44,True,54,11
+Medium (80/10/10),MDP Policy,45,True,78,15
+Medium (80/10/10),MDP Policy,46,True,54,9
+Medium (80/10/10),MDP Policy,47,True,49,5
+Medium (80/10/10),MDP Policy,48,True,74,8
+Medium (80/10/10),MDP Policy,49,True,68,17
+Medium (80/10/10),MDP Policy,50,True,50,11
+Medium (80/10/10),MDP Policy,51,True,75,9
+Medium (80/10/10),MDP Policy,52,True,50,7
+Medium (80/10/10),MDP Policy,53,True,68,11
+Medium (80/10/10),MDP Policy,54,True,46,6
+Medium (80/10/10),MDP Policy,55,True,67,14
+Medium (80/10/10),MDP Policy,56,True,55,11
+Medium (80/10/10),MDP Policy,57,True,86,13
+Medium (80/10/10),MDP Policy,58,True,49,5
+Medium (80/10/10),MDP Policy,59,True,57,9
+Medium (80/10/10),MDP Policy,60,True,52,6
+Medium (80/10/10),MDP Policy,61,True,54,7
+Medium (80/10/10),MDP Policy,62,True,46,10
+Medium (80/10/10),MDP Policy,63,True,74,19
+Medium (80/10/10),MDP Policy,64,True,80,9
+Medium (80/10/10),MDP Policy,65,True,50,6
+Medium (80/10/10),MDP Policy,66,True,42,4
+Medium (80/10/10),MDP Policy,67,True,49,8
+Medium (80/10/10),MDP Policy,68,True,54,10
+Medium (80/10/10),MDP Policy,69,True,61,6
+Medium (80/10/10),MDP Policy,70,True,51,10
+Medium (80/10/10),MDP Policy,71,True,61,12
+Medium (80/10/10),MDP Policy,72,True,142,23
+Medium (80/10/10),MDP Policy,73,True,43,4
+Medium (80/10/10),MDP Policy,74,True,78,10
+Medium (80/10/10),MDP Policy,75,True,51,11
+Medium (80/10/10),MDP Policy,76,True,63,18
+Medium (80/10/10),MDP Policy,77,True,78,12
+Medium (80/10/10),MDP Policy,78,True,63,13
+Medium (80/10/10),MDP Policy,79,True,53,8
+Medium (80/10/10),MDP Policy,80,True,60,13
+Medium (80/10/10),MDP Policy,81,True,52,9
+Medium (80/10/10),MDP Policy,82,True,71,15
+Medium (80/10/10),MDP Policy,83,True,45,7
+Medium (80/10/10),MDP Policy,84,True,52,10
+Medium (80/10/10),MDP Policy,85,True,78,13
+Medium (80/10/10),MDP Policy,86,True,72,15
+Medium (80/10/10),MDP Policy,87,True,46,7
+Medium (80/10/10),MDP Policy,88,True,56,12
+Medium (80/10/10),MDP Policy,89,True,52,7
+Medium (80/10/10),MDP Policy,90,True,70,16
+Medium (80/10/10),MDP Policy,91,True,40,4
+Medium (80/10/10),MDP Policy,92,True,59,10
+Medium (80/10/10),MDP Policy,93,True,67,10
+Medium (80/10/10),MDP Policy,94,True,47,6
+Medium (80/10/10),MDP Policy,95,True,61,13
+Medium (80/10/10),MDP Policy,96,True,61,13
+Medium (80/10/10),MDP Policy,97,True,65,11
+Medium (80/10/10),MDP Policy,98,True,50,11
+Medium (80/10/10),MDP Policy,99,True,80,22
+Medium (80/10/10),MDP Policy,100,True,93,19
+Medium (80/10/10),MDP Policy,101,True,60,11
+Medium (80/10/10),MDP Policy,102,True,60,10
+Medium (80/10/10),MDP Policy,103,True,111,20
+Medium (80/10/10),MDP Policy,104,True,52,7
+Medium (80/10/10),MDP Policy,105,True,74,10
+Medium (80/10/10),MDP Policy,106,True,61,13
+Medium (80/10/10),MDP Policy,107,True,51,11
+Medium (80/10/10),MDP Policy,108,True,66,9
+Medium (80/10/10),MDP Policy,109,True,49,13
+Medium (80/10/10),MDP Policy,110,True,89,14
+Medium (80/10/10),MDP Policy,111,True,58,15
+Medium (80/10/10),MDP Policy,112,True,56,10
+Medium (80/10/10),MDP Policy,113,True,84,14
+Medium (80/10/10),MDP Policy,114,True,50,7
+Medium (80/10/10),MDP Policy,115,True,44,8
+Medium (80/10/10),MDP Policy,116,True,45,7
+Medium (80/10/10),MDP Policy,117,True,63,11
+Medium (80/10/10),MDP Policy,118,True,64,15
+Medium (80/10/10),MDP Policy,119,True,87,10
+Medium (80/10/10),MDP Policy,120,True,66,11
+Medium (80/10/10),MDP Policy,121,True,50,9
+Medium (80/10/10),MDP Policy,122,True,90,21
+Medium (80/10/10),MDP Policy,123,True,79,9
+Medium (80/10/10),MDP Policy,124,True,45,6
+Medium (80/10/10),MDP Policy,125,True,66,12
+Medium (80/10/10),MDP Policy,126,True,54,8
+Medium (80/10/10),MDP Policy,127,True,48,5
+Medium (80/10/10),MDP Policy,128,True,54,8
+Medium (80/10/10),MDP Policy,129,True,60,8
+Medium (80/10/10),MDP Policy,130,True,84,20
+Medium (80/10/10),MDP Policy,131,True,53,7
+Medium (80/10/10),MDP Policy,132,True,66,16
+Medium (80/10/10),MDP Policy,133,True,52,10
+Medium (80/10/10),MDP Policy,134,True,64,17
+Medium (80/10/10),MDP Policy,135,True,60,14
+Medium (80/10/10),MDP Policy,136,True,55,6
+Medium (80/10/10),MDP Policy,137,True,70,14
+Medium (80/10/10),MDP Policy,138,True,79,13
+Medium (80/10/10),MDP Policy,139,True,48,10
+Medium (80/10/10),MDP Policy,140,True,53,8
+Medium (80/10/10),MDP Policy,141,True,63,8
+Medium (80/10/10),MDP Policy,142,True,70,15
+Medium (80/10/10),MDP Policy,143,True,82,11
+Medium (80/10/10),MDP Policy,144,True,49,7
+Medium (80/10/10),MDP Policy,145,True,44,5
+Medium (80/10/10),MDP Policy,146,True,85,20
+Medium (80/10/10),MDP Policy,147,True,53,6
+Medium (80/10/10),MDP Policy,148,True,65,10
+Medium (80/10/10),MDP Policy,149,True,58,12
+Medium (80/10/10),MDP Policy,150,True,81,13
+Medium (80/10/10),MDP Policy,151,True,63,18
+Medium (80/10/10),MDP Policy,152,True,48,6
+Medium (80/10/10),MDP Policy,153,True,46,5
+Medium (80/10/10),MDP Policy,154,True,95,18
+Medium (80/10/10),MDP Policy,155,True,56,3
+Medium (80/10/10),MDP Policy,156,True,68,11
+Medium (80/10/10),MDP Policy,157,True,76,17
+Medium (80/10/10),MDP Policy,158,True,59,14
+Medium (80/10/10),MDP Policy,159,True,54,12
+Medium (80/10/10),MDP Policy,160,True,54,9
+Medium (80/10/10),MDP Policy,161,True,51,8
+Medium (80/10/10),MDP Policy,162,True,50,7
+Medium (80/10/10),MDP Policy,163,True,60,12
+Medium (80/10/10),MDP Policy,164,True,52,9
+Medium (80/10/10),MDP Policy,165,True,66,9
+Medium (80/10/10),MDP Policy,166,True,92,18
+Medium (80/10/10),MDP Policy,167,True,79,15
+Medium (80/10/10),MDP Policy,168,True,54,11
+Medium (80/10/10),MDP Policy,169,True,61,10
+Medium (80/10/10),MDP Policy,170,True,48,8
+Medium (80/10/10),MDP Policy,171,True,54,9
+Medium (80/10/10),MDP Policy,172,True,49,4
+Medium (80/10/10),MDP Policy,173,True,54,12
+Medium (80/10/10),MDP Policy,174,True,59,13
+Medium (80/10/10),MDP Policy,175,True,73,17
+Medium (80/10/10),MDP Policy,176,True,100,19
+Medium (80/10/10),MDP Policy,177,True,98,24
+Medium (80/10/10),MDP Policy,178,True,76,15
+Medium (80/10/10),MDP Policy,179,True,81,17
+Medium (80/10/10),MDP Policy,180,True,75,11
+Medium (80/10/10),MDP Policy,181,True,60,14
+Medium (80/10/10),MDP Policy,182,True,66,10
+Medium (80/10/10),MDP Policy,183,True,67,13
+Medium (80/10/10),MDP Policy,184,True,50,9
+Medium (80/10/10),MDP Policy,185,True,51,10
+Medium (80/10/10),MDP Policy,186,True,52,9
+Medium (80/10/10),MDP Policy,187,True,46,5
+Medium (80/10/10),MDP Policy,188,True,68,13
+Medium (80/10/10),MDP Policy,189,True,68,13
+Medium (80/10/10),MDP Policy,190,True,45,8
+Medium (80/10/10),MDP Policy,191,True,96,19
+Medium (80/10/10),MDP Policy,192,True,45,5
+Medium (80/10/10),MDP Policy,193,True,60,16
+Medium (80/10/10),MDP Policy,194,True,51,7
+Medium (80/10/10),MDP Policy,195,True,68,12
+Medium (80/10/10),MDP Policy,196,True,60,14
+Medium (80/10/10),MDP Policy,197,True,48,5
+Medium (80/10/10),MDP Policy,198,True,75,10
+Medium (80/10/10),MDP Policy,199,True,79,20
+High (60/20/20),Dijkstra,0,True,107,30
+High (60/20/20),Dijkstra,1,True,78,24
+High (60/20/20),Dijkstra,2,True,140,33
+High (60/20/20),Dijkstra,3,True,99,22
+High (60/20/20),Dijkstra,4,True,119,35
+High (60/20/20),Dijkstra,5,True,98,22
+High (60/20/20),Dijkstra,6,True,144,42
+High (60/20/20),Dijkstra,7,True,118,29
+High (60/20/20),Dijkstra,8,True,134,34
+High (60/20/20),Dijkstra,9,True,117,27
+High (60/20/20),Dijkstra,10,True,98,24
+High (60/20/20),Dijkstra,11,True,136,47
+High (60/20/20),Dijkstra,12,True,89,29
+High (60/20/20),Dijkstra,13,True,106,30
+High (60/20/20),Dijkstra,14,True,138,38
+High (60/20/20),Dijkstra,15,True,158,42
+High (60/20/20),Dijkstra,16,True,144,45
+High (60/20/20),Dijkstra,17,True,107,35
+High (60/20/20),Dijkstra,18,True,119,38
+High (60/20/20),Dijkstra,19,True,68,25
+High (60/20/20),Dijkstra,20,True,104,32
+High (60/20/20),Dijkstra,21,True,120,36
+High (60/20/20),Dijkstra,22,True,108,33
+High (60/20/20),Dijkstra,23,True,60,14
+High (60/20/20),Dijkstra,24,True,135,46
+High (60/20/20),Dijkstra,25,True,130,35
+High (60/20/20),Dijkstra,26,True,101,29
+High (60/20/20),Dijkstra,27,True,70,27
+High (60/20/20),Dijkstra,28,True,70,23
+High (60/20/20),Dijkstra,29,True,94,30
+High (60/20/20),Dijkstra,30,True,90,23
+High (60/20/20),Dijkstra,31,True,107,20
+High (60/20/20),Dijkstra,32,True,129,32
+High (60/20/20),Dijkstra,33,True,99,25
+High (60/20/20),Dijkstra,34,True,64,20
+High (60/20/20),Dijkstra,35,True,109,30
+High (60/20/20),Dijkstra,36,True,166,38
+High (60/20/20),Dijkstra,37,True,126,30
+High (60/20/20),Dijkstra,38,True,119,35
+High (60/20/20),Dijkstra,39,True,74,26
+High (60/20/20),Dijkstra,40,True,91,27
+High (60/20/20),Dijkstra,41,True,91,24
+High (60/20/20),Dijkstra,42,True,97,28
+High (60/20/20),Dijkstra,43,True,80,22
+High (60/20/20),Dijkstra,44,True,87,31
+High (60/20/20),Dijkstra,45,True,137,41
+High (60/20/20),Dijkstra,46,True,73,18
+High (60/20/20),Dijkstra,47,True,93,25
+High (60/20/20),Dijkstra,48,True,106,25
+High (60/20/20),Dijkstra,49,True,90,35
+High (60/20/20),Dijkstra,50,True,79,21
+High (60/20/20),Dijkstra,51,True,116,30
+High (60/20/20),Dijkstra,52,True,92,33
+High (60/20/20),Dijkstra,53,True,175,40
+High (60/20/20),Dijkstra,54,True,138,42
+High (60/20/20),Dijkstra,55,True,156,47
+High (60/20/20),Dijkstra,56,True,74,23
+High (60/20/20),Dijkstra,57,True,95,30
+High (60/20/20),Dijkstra,58,True,124,34
+High (60/20/20),Dijkstra,59,True,158,47
+High (60/20/20),Dijkstra,60,True,77,23
+High (60/20/20),Dijkstra,61,True,102,35
+High (60/20/20),Dijkstra,62,True,106,35
+High (60/20/20),Dijkstra,63,True,68,24
+High (60/20/20),Dijkstra,64,True,100,26
+High (60/20/20),Dijkstra,65,True,115,26
+High (60/20/20),Dijkstra,66,True,120,33
+High (60/20/20),Dijkstra,67,True,104,27
+High (60/20/20),Dijkstra,68,True,117,37
+High (60/20/20),Dijkstra,69,True,73,15
+High (60/20/20),Dijkstra,70,True,121,32
+High (60/20/20),Dijkstra,71,True,92,32
+High (60/20/20),Dijkstra,72,True,153,47
+High (60/20/20),Dijkstra,73,True,82,19
+High (60/20/20),Dijkstra,74,True,108,27
+High (60/20/20),Dijkstra,75,True,122,38
+High (60/20/20),Dijkstra,76,True,82,32
+High (60/20/20),Dijkstra,77,True,95,27
+High (60/20/20),Dijkstra,78,True,138,37
+High (60/20/20),Dijkstra,79,True,91,38
+High (60/20/20),Dijkstra,80,True,69,12
+High (60/20/20),Dijkstra,81,True,112,26
+High (60/20/20),Dijkstra,82,True,71,18
+High (60/20/20),Dijkstra,83,True,79,20
+High (60/20/20),Dijkstra,84,True,74,17
+High (60/20/20),Dijkstra,85,True,94,32
+High (60/20/20),Dijkstra,86,True,98,25
+High (60/20/20),Dijkstra,87,True,117,32
+High (60/20/20),Dijkstra,88,True,79,25
+High (60/20/20),Dijkstra,89,True,46,8
+High (60/20/20),Dijkstra,90,True,105,32
+High (60/20/20),Dijkstra,91,True,90,29
+High (60/20/20),Dijkstra,92,True,114,36
+High (60/20/20),Dijkstra,93,True,126,34
+High (60/20/20),Dijkstra,94,True,125,35
+High (60/20/20),Dijkstra,95,True,129,31
+High (60/20/20),Dijkstra,96,True,114,27
+High (60/20/20),Dijkstra,97,True,139,30
+High (60/20/20),Dijkstra,98,True,112,22
+High (60/20/20),Dijkstra,99,True,166,46
+High (60/20/20),Dijkstra,100,True,115,24
+High (60/20/20),Dijkstra,101,True,137,41
+High (60/20/20),Dijkstra,102,True,130,29
+High (60/20/20),Dijkstra,103,True,85,17
+High (60/20/20),Dijkstra,104,True,93,27
+High (60/20/20),Dijkstra,105,True,73,18
+High (60/20/20),Dijkstra,106,True,91,22
+High (60/20/20),Dijkstra,107,True,143,39
+High (60/20/20),Dijkstra,108,True,153,46
+High (60/20/20),Dijkstra,109,True,77,32
+High (60/20/20),Dijkstra,110,True,108,31
+High (60/20/20),Dijkstra,111,True,112,24
+High (60/20/20),Dijkstra,112,True,116,32
+High (60/20/20),Dijkstra,113,True,166,49
+High (60/20/20),Dijkstra,114,True,185,50
+High (60/20/20),Dijkstra,115,True,137,37
+High (60/20/20),Dijkstra,116,True,153,53
+High (60/20/20),Dijkstra,117,True,120,45
+High (60/20/20),Dijkstra,118,True,86,30
+High (60/20/20),Dijkstra,119,True,106,31
+High (60/20/20),Dijkstra,120,True,86,20
+High (60/20/20),Dijkstra,121,True,62,23
+High (60/20/20),Dijkstra,122,True,167,37
+High (60/20/20),Dijkstra,123,True,123,35
+High (60/20/20),Dijkstra,124,True,113,42
+High (60/20/20),Dijkstra,125,True,70,19
+High (60/20/20),Dijkstra,126,True,95,29
+High (60/20/20),Dijkstra,127,True,118,34
+High (60/20/20),Dijkstra,128,True,107,34
+High (60/20/20),Dijkstra,129,True,75,16
+High (60/20/20),Dijkstra,130,True,118,38
+High (60/20/20),Dijkstra,131,True,105,31
+High (60/20/20),Dijkstra,132,True,86,22
+High (60/20/20),Dijkstra,133,True,123,29
+High (60/20/20),Dijkstra,134,True,133,47
+High (60/20/20),Dijkstra,135,True,85,24
+High (60/20/20),Dijkstra,136,True,114,36
+High (60/20/20),Dijkstra,137,True,123,35
+High (60/20/20),Dijkstra,138,True,150,47
+High (60/20/20),Dijkstra,139,True,52,11
+High (60/20/20),Dijkstra,140,True,60,15
+High (60/20/20),Dijkstra,141,True,105,34
+High (60/20/20),Dijkstra,142,True,129,38
+High (60/20/20),Dijkstra,143,True,108,28
+High (60/20/20),Dijkstra,144,True,97,23
+High (60/20/20),Dijkstra,145,True,107,23
+High (60/20/20),Dijkstra,146,True,94,37
+High (60/20/20),Dijkstra,147,True,61,13
+High (60/20/20),Dijkstra,148,True,125,36
+High (60/20/20),Dijkstra,149,True,152,45
+High (60/20/20),Dijkstra,150,True,82,21
+High (60/20/20),Dijkstra,151,True,98,34
+High (60/20/20),Dijkstra,152,True,100,26
+High (60/20/20),Dijkstra,153,True,80,22
+High (60/20/20),Dijkstra,154,True,103,32
+High (60/20/20),Dijkstra,155,True,143,44
+High (60/20/20),Dijkstra,156,True,98,27
+High (60/20/20),Dijkstra,157,True,87,22
+High (60/20/20),Dijkstra,158,True,88,23
+High (60/20/20),Dijkstra,159,True,94,22
+High (60/20/20),Dijkstra,160,True,131,37
+High (60/20/20),Dijkstra,161,True,158,34
+High (60/20/20),Dijkstra,162,True,88,23
+High (60/20/20),Dijkstra,163,True,84,28
+High (60/20/20),Dijkstra,164,True,96,35
+High (60/20/20),Dijkstra,165,True,280,65
+High (60/20/20),Dijkstra,166,True,141,44
+High (60/20/20),Dijkstra,167,True,207,59
+High (60/20/20),Dijkstra,168,True,81,19
+High (60/20/20),Dijkstra,169,True,90,23
+High (60/20/20),Dijkstra,170,True,135,40
+High (60/20/20),Dijkstra,171,True,78,28
+High (60/20/20),Dijkstra,172,True,108,28
+High (60/20/20),Dijkstra,173,True,89,33
+High (60/20/20),Dijkstra,174,True,182,51
+High (60/20/20),Dijkstra,175,True,104,32
+High (60/20/20),Dijkstra,176,True,85,27
+High (60/20/20),Dijkstra,177,True,92,34
+High (60/20/20),Dijkstra,178,True,95,21
+High (60/20/20),Dijkstra,179,True,134,43
+High (60/20/20),Dijkstra,180,True,106,29
+High (60/20/20),Dijkstra,181,True,82,25
+High (60/20/20),Dijkstra,182,True,97,31
+High (60/20/20),Dijkstra,183,True,80,25
+High (60/20/20),Dijkstra,184,True,98,33
+High (60/20/20),Dijkstra,185,True,83,27
+High (60/20/20),Dijkstra,186,True,127,39
+High (60/20/20),Dijkstra,187,True,105,21
+High (60/20/20),Dijkstra,188,True,100,30
+High (60/20/20),Dijkstra,189,True,64,20
+High (60/20/20),Dijkstra,190,True,177,38
+High (60/20/20),Dijkstra,191,True,81,24
+High (60/20/20),Dijkstra,192,True,95,29
+High (60/20/20),Dijkstra,193,True,66,24
+High (60/20/20),Dijkstra,194,True,101,19
+High (60/20/20),Dijkstra,195,True,116,40
+High (60/20/20),Dijkstra,196,True,62,19
+High (60/20/20),Dijkstra,197,True,109,37
+High (60/20/20),Dijkstra,198,True,170,38
+High (60/20/20),Dijkstra,199,True,56,16
+High (60/20/20),A*,0,True,107,32
+High (60/20/20),A*,1,True,93,25
+High (60/20/20),A*,2,True,140,33
+High (60/20/20),A*,3,True,151,43
+High (60/20/20),A*,4,True,155,47
+High (60/20/20),A*,5,True,98,19
+High (60/20/20),A*,6,True,161,42
+High (60/20/20),A*,7,True,118,29
+High (60/20/20),A*,8,True,162,39
+High (60/20/20),A*,9,True,106,23
+High (60/20/20),A*,10,True,98,23
+High (60/20/20),A*,11,True,136,51
+High (60/20/20),A*,12,True,89,27
+High (60/20/20),A*,13,True,106,36
+High (60/20/20),A*,14,True,107,28
+High (60/20/20),A*,15,True,111,33
+High (60/20/20),A*,16,True,101,34
+High (60/20/20),A*,17,True,107,38
+High (60/20/20),A*,18,True,103,32
+High (60/20/20),A*,19,True,73,24
+High (60/20/20),A*,20,True,104,35
+High (60/20/20),A*,21,True,99,32
+High (60/20/20),A*,22,True,108,35
+High (60/20/20),A*,23,True,67,19
+High (60/20/20),A*,24,True,123,34
+High (60/20/20),A*,25,True,264,49
+High (60/20/20),A*,26,True,148,44
+High (60/20/20),A*,27,True,108,31
+High (60/20/20),A*,28,True,113,36
+High (60/20/20),A*,29,True,112,34
+High (60/20/20),A*,30,True,61,17
+High (60/20/20),A*,31,True,248,47
+High (60/20/20),A*,32,True,215,50
+High (60/20/20),A*,33,True,99,26
+High (60/20/20),A*,34,True,74,26
+High (60/20/20),A*,35,True,101,35
+High (60/20/20),A*,36,True,76,16
+High (60/20/20),A*,37,True,147,43
+High (60/20/20),A*,38,True,119,38
+High (60/20/20),A*,39,True,127,42
+High (60/20/20),A*,40,True,110,28
+High (60/20/20),A*,41,True,113,27
+High (60/20/20),A*,42,True,110,25
+High (60/20/20),A*,43,True,98,35
+High (60/20/20),A*,44,True,144,35
+High (60/20/20),A*,45,True,199,43
+High (60/20/20),A*,46,True,126,19
+High (60/20/20),A*,47,True,153,44
+High (60/20/20),A*,48,True,128,34
+High (60/20/20),A*,49,True,84,34
+High (60/20/20),A*,50,True,79,25
+High (60/20/20),A*,51,True,116,32
+High (60/20/20),A*,52,True,156,37
+High (60/20/20),A*,53,True,131,44
+High (60/20/20),A*,54,True,112,33
+High (60/20/20),A*,55,True,156,43
+High (60/20/20),A*,56,True,122,29
+High (60/20/20),A*,57,True,166,49
+High (60/20/20),A*,58,True,55,13
+High (60/20/20),A*,59,True,276,71
+High (60/20/20),A*,60,True,119,32
+High (60/20/20),A*,61,True,104,26
+High (60/20/20),A*,62,True,86,31
+High (60/20/20),A*,63,True,78,25
+High (60/20/20),A*,64,True,69,15
+High (60/20/20),A*,65,True,62,15
+High (60/20/20),A*,66,True,67,14
+High (60/20/20),A*,67,True,90,21
+High (60/20/20),A*,68,True,117,38
+High (60/20/20),A*,69,True,178,37
+High (60/20/20),A*,70,True,242,48
+High (60/20/20),A*,71,True,74,26
+High (60/20/20),A*,72,True,153,46
+High (60/20/20),A*,73,True,105,28
+High (60/20/20),A*,74,True,97,31
+High (60/20/20),A*,75,True,128,43
+High (60/20/20),A*,76,True,84,29
+High (60/20/20),A*,77,True,95,24
+High (60/20/20),A*,78,True,138,37
+High (60/20/20),A*,79,True,167,62
+High (60/20/20),A*,80,True,70,22
+High (60/20/20),A*,81,True,89,25
+High (60/20/20),A*,82,True,71,17
+High (60/20/20),A*,83,True,79,29
+High (60/20/20),A*,84,True,74,16
+High (60/20/20),A*,85,True,94,32
+High (60/20/20),A*,86,True,100,28
+High (60/20/20),A*,87,True,227,41
+High (60/20/20),A*,88,True,165,41
+High (60/20/20),A*,89,True,114,24
+High (60/20/20),A*,90,True,89,33
+High (60/20/20),A*,91,True,84,30
+High (60/20/20),A*,92,True,114,34
+High (60/20/20),A*,93,True,126,31
+High (60/20/20),A*,94,True,128,33
+High (60/20/20),A*,95,True,87,19
+High (60/20/20),A*,96,True,65,18
+High (60/20/20),A*,97,True,113,27
+High (60/20/20),A*,98,True,150,39
+High (60/20/20),A*,99,True,67,20
+High (60/20/20),A*,100,True,92,25
+High (60/20/20),A*,101,True,103,33
+High (60/20/20),A*,102,True,130,30
+High (60/20/20),A*,103,True,76,19
+High (60/20/20),A*,104,True,93,28
+High (60/20/20),A*,105,True,81,20
+High (60/20/20),A*,106,True,91,24
+High (60/20/20),A*,107,True,143,36
+High (60/20/20),A*,108,True,153,45
+High (60/20/20),A*,109,True,85,29
+High (60/20/20),A*,110,True,142,39
+High (60/20/20),A*,111,True,103,26
+High (60/20/20),A*,112,True,116,33
+High (60/20/20),A*,113,True,166,49
+High (60/20/20),A*,114,True,119,36
+High (60/20/20),A*,115,True,137,39
+High (60/20/20),A*,116,True,139,48
+High (60/20/20),A*,117,True,159,62
+High (60/20/20),A*,118,True,160,27
+High (60/20/20),A*,119,True,111,35
+High (60/20/20),A*,120,True,101,27
+High (60/20/20),A*,121,True,62,20
+High (60/20/20),A*,122,True,53,15
+High (60/20/20),A*,123,True,123,35
+High (60/20/20),A*,124,True,111,39
+High (60/20/20),A*,125,True,70,20
+High (60/20/20),A*,126,True,95,26
+High (60/20/20),A*,127,True,118,37
+High (60/20/20),A*,128,True,107,39
+High (60/20/20),A*,129,True,75,16
+High (60/20/20),A*,130,True,99,37
+High (60/20/20),A*,131,True,204,49
+High (60/20/20),A*,132,True,68,12
+High (60/20/20),A*,133,True,123,29
+High (60/20/20),A*,134,True,133,47
+High (60/20/20),A*,135,True,107,32
+High (60/20/20),A*,136,True,109,32
+High (60/20/20),A*,137,True,191,42
+High (60/20/20),A*,138,True,157,49
+High (60/20/20),A*,139,True,52,12
+High (60/20/20),A*,140,True,115,25
+High (60/20/20),A*,141,True,105,30
+High (60/20/20),A*,142,True,84,24
+High (60/20/20),A*,143,True,101,21
+High (60/20/20),A*,144,True,97,21
+High (60/20/20),A*,145,True,107,24
+High (60/20/20),A*,146,True,94,38
+High (60/20/20),A*,147,True,61,13
+High (60/20/20),A*,148,True,110,32
+High (60/20/20),A*,149,True,230,57
+High (60/20/20),A*,150,True,172,38
+High (60/20/20),A*,151,True,121,35
+High (60/20/20),A*,152,True,100,29
+High (60/20/20),A*,153,True,80,23
+High (60/20/20),A*,154,True,122,26
+High (60/20/20),A*,155,True,143,42
+High (60/20/20),A*,156,True,80,21
+High (60/20/20),A*,157,True,108,24
+High (60/20/20),A*,158,True,148,42
+High (60/20/20),A*,159,True,108,23
+High (60/20/20),A*,160,True,129,36
+High (60/20/20),A*,161,True,117,32
+High (60/20/20),A*,162,True,88,26
+High (60/20/20),A*,163,True,84,27
+High (60/20/20),A*,164,True,96,31
+High (60/20/20),A*,165,True,109,40
+High (60/20/20),A*,166,True,146,44
+High (60/20/20),A*,167,True,161,52
+High (60/20/20),A*,168,True,81,22
+High (60/20/20),A*,169,True,144,35
+High (60/20/20),A*,170,True,135,37
+High (60/20/20),A*,171,True,78,30
+High (60/20/20),A*,172,True,108,32
+High (60/20/20),A*,173,True,98,29
+High (60/20/20),A*,174,True,81,20
+High (60/20/20),A*,175,True,104,32
+High (60/20/20),A*,176,True,85,29
+High (60/20/20),A*,177,True,92,36
+High (60/20/20),A*,178,True,161,47
+High (60/20/20),A*,179,True,134,47
+High (60/20/20),A*,180,True,76,22
+High (60/20/20),A*,181,True,75,29
+High (60/20/20),A*,182,True,97,34
+High (60/20/20),A*,183,True,126,34
+High (60/20/20),A*,184,True,98,37
+High (60/20/20),A*,185,True,89,28
+High (60/20/20),A*,186,True,126,32
+High (60/20/20),A*,187,True,105,27
+High (60/20/20),A*,188,True,102,25
+High (60/20/20),A*,189,True,96,24
+High (60/20/20),A*,190,True,93,31
+High (60/20/20),A*,191,True,120,36
+High (60/20/20),A*,192,True,89,25
+High (60/20/20),A*,193,True,94,23
+High (60/20/20),A*,194,True,123,35
+High (60/20/20),A*,195,True,129,36
+High (60/20/20),A*,196,True,62,20
+High (60/20/20),A*,197,True,128,53
+High (60/20/20),A*,198,True,170,38
+High (60/20/20),A*,199,True,273,60
+High (60/20/20),RRT-Connect,0,True,107,33
+High (60/20/20),RRT-Connect,1,True,129,44
+High (60/20/20),RRT-Connect,2,True,119,29
+High (60/20/20),RRT-Connect,3,True,151,38
+High (60/20/20),RRT-Connect,4,True,234,63
+High (60/20/20),RRT-Connect,5,True,87,24
+High (60/20/20),RRT-Connect,6,True,144,47
+High (60/20/20),RRT-Connect,7,True,118,32
+High (60/20/20),RRT-Connect,8,True,162,42
+High (60/20/20),RRT-Connect,9,True,117,29
+High (60/20/20),RRT-Connect,10,True,108,30
+High (60/20/20),RRT-Connect,11,True,143,56
+High (60/20/20),RRT-Connect,12,True,147,37
+High (60/20/20),RRT-Connect,13,True,170,40
+High (60/20/20),RRT-Connect,14,True,107,30
+High (60/20/20),RRT-Connect,15,True,107,32
+High (60/20/20),RRT-Connect,16,True,101,37
+High (60/20/20),RRT-Connect,17,True,107,40
+High (60/20/20),RRT-Connect,18,True,121,31
+High (60/20/20),RRT-Connect,19,True,133,36
+High (60/20/20),RRT-Connect,20,True,104,35
+High (60/20/20),RRT-Connect,21,True,96,34
+High (60/20/20),RRT-Connect,22,True,146,50
+High (60/20/20),RRT-Connect,23,True,67,17
+High (60/20/20),RRT-Connect,24,True,135,44
+High (60/20/20),RRT-Connect,25,True,141,41
+High (60/20/20),RRT-Connect,26,True,167,41
+High (60/20/20),RRT-Connect,27,True,77,29
+High (60/20/20),RRT-Connect,28,True,96,34
+High (60/20/20),RRT-Connect,29,True,112,37
+High (60/20/20),RRT-Connect,30,True,90,20
+High (60/20/20),RRT-Connect,31,True,107,24
+High (60/20/20),RRT-Connect,32,True,141,39
+High (60/20/20),RRT-Connect,33,True,99,27
+High (60/20/20),RRT-Connect,34,True,74,26
+High (60/20/20),RRT-Connect,35,True,113,33
+High (60/20/20),RRT-Connect,36,True,84,20
+High (60/20/20),RRT-Connect,37,True,147,46
+High (60/20/20),RRT-Connect,38,True,119,38
+High (60/20/20),RRT-Connect,39,True,72,24
+High (60/20/20),RRT-Connect,40,True,146,39
+High (60/20/20),RRT-Connect,41,True,173,43
+High (60/20/20),RRT-Connect,42,True,97,29
+High (60/20/20),RRT-Connect,43,True,142,42
+High (60/20/20),RRT-Connect,44,True,126,34
+High (60/20/20),RRT-Connect,45,True,199,48
+High (60/20/20),RRT-Connect,46,True,87,19
+High (60/20/20),RRT-Connect,47,True,193,58
+High (60/20/20),RRT-Connect,48,True,128,35
+High (60/20/20),RRT-Connect,49,True,84,36
+High (60/20/20),RRT-Connect,50,True,79,26
+High (60/20/20),RRT-Connect,51,True,142,47
+High (60/20/20),RRT-Connect,52,True,156,42
+High (60/20/20),RRT-Connect,53,True,131,44
+High (60/20/20),RRT-Connect,54,True,112,31
+High (60/20/20),RRT-Connect,55,True,101,37
+High (60/20/20),RRT-Connect,56,True,122,31
+High (60/20/20),RRT-Connect,57,True,93,31
+High (60/20/20),RRT-Connect,58,True,94,22
+High (60/20/20),RRT-Connect,59,True,164,45
+High (60/20/20),RRT-Connect,60,True,88,28
+High (60/20/20),RRT-Connect,61,True,269,59
+High (60/20/20),RRT-Connect,62,True,95,32
+High (60/20/20),RRT-Connect,63,True,131,40
+High (60/20/20),RRT-Connect,64,True,100,26
+High (60/20/20),RRT-Connect,65,True,99,23
+High (60/20/20),RRT-Connect,66,True,74,14
+High (60/20/20),RRT-Connect,67,True,90,24
+High (60/20/20),RRT-Connect,68,True,117,36
+High (60/20/20),RRT-Connect,69,True,178,42
+High (60/20/20),RRT-Connect,70,True,242,50
+High (60/20/20),RRT-Connect,71,True,72,26
+High (60/20/20),RRT-Connect,72,True,153,43
+High (60/20/20),RRT-Connect,73,True,105,29
+High (60/20/20),RRT-Connect,74,True,111,36
+High (60/20/20),RRT-Connect,75,True,128,44
+High (60/20/20),RRT-Connect,76,True,84,27
+High (60/20/20),RRT-Connect,77,True,174,41
+High (60/20/20),RRT-Connect,78,True,236,55
+High (60/20/20),RRT-Connect,79,True,157,62
+High (60/20/20),RRT-Connect,80,True,83,33
+High (60/20/20),RRT-Connect,81,True,112,29
+High (60/20/20),RRT-Connect,82,True,71,23
+High (60/20/20),RRT-Connect,83,True,79,25
+High (60/20/20),RRT-Connect,84,True,74,17
+High (60/20/20),RRT-Connect,85,True,156,39
+High (60/20/20),RRT-Connect,86,True,118,35
+High (60/20/20),RRT-Connect,87,True,93,32
+High (60/20/20),RRT-Connect,88,True,86,26
+High (60/20/20),RRT-Connect,89,True,69,13
+High (60/20/20),RRT-Connect,90,True,105,39
+High (60/20/20),RRT-Connect,91,True,166,52
+High (60/20/20),RRT-Connect,92,True,114,35
+High (60/20/20),RRT-Connect,93,True,212,51
+High (60/20/20),RRT-Connect,94,True,125,33
+High (60/20/20),RRT-Connect,95,True,65,19
+High (60/20/20),RRT-Connect,96,True,69,26
+High (60/20/20),RRT-Connect,97,True,113,28
+High (60/20/20),RRT-Connect,98,True,114,29
+High (60/20/20),RRT-Connect,99,True,166,45
+High (60/20/20),RRT-Connect,100,True,92,24
+High (60/20/20),RRT-Connect,101,True,103,30
+High (60/20/20),RRT-Connect,102,True,59,16
+High (60/20/20),RRT-Connect,103,True,87,22
+High (60/20/20),RRT-Connect,104,True,105,34
+High (60/20/20),RRT-Connect,105,True,81,20
+High (60/20/20),RRT-Connect,106,True,103,33
+High (60/20/20),RRT-Connect,107,True,143,46
+High (60/20/20),RRT-Connect,108,True,153,46
+High (60/20/20),RRT-Connect,109,True,85,32
+High (60/20/20),RRT-Connect,110,True,142,43
+High (60/20/20),RRT-Connect,111,True,101,27
+High (60/20/20),RRT-Connect,112,True,116,33
+High (60/20/20),RRT-Connect,113,True,166,59
+High (60/20/20),RRT-Connect,114,True,118,27
+High (60/20/20),RRT-Connect,115,True,135,36
+High (60/20/20),RRT-Connect,116,True,139,47
+High (60/20/20),RRT-Connect,117,True,159,63
+High (60/20/20),RRT-Connect,118,True,86,25
+High (60/20/20),RRT-Connect,119,True,111,36
+High (60/20/20),RRT-Connect,120,True,160,37
+High (60/20/20),RRT-Connect,121,True,104,31
+High (60/20/20),RRT-Connect,122,True,167,42
+High (60/20/20),RRT-Connect,123,True,200,54
+High (60/20/20),RRT-Connect,124,True,195,60
+High (60/20/20),RRT-Connect,125,True,72,19
+High (60/20/20),RRT-Connect,126,True,115,33
+High (60/20/20),RRT-Connect,127,True,118,32
+High (60/20/20),RRT-Connect,128,True,117,34
+High (60/20/20),RRT-Connect,129,True,75,15
+High (60/20/20),RRT-Connect,130,True,100,40
+High (60/20/20),RRT-Connect,131,True,93,30
+High (60/20/20),RRT-Connect,132,True,138,32
+High (60/20/20),RRT-Connect,133,True,80,28
+High (60/20/20),RRT-Connect,134,True,123,35
+High (60/20/20),RRT-Connect,135,True,72,25
+High (60/20/20),RRT-Connect,136,True,114,39
+High (60/20/20),RRT-Connect,137,True,98,33
+High (60/20/20),RRT-Connect,138,True,157,57
+High (60/20/20),RRT-Connect,139,True,76,16
+High (60/20/20),RRT-Connect,140,True,129,36
+High (60/20/20),RRT-Connect,141,True,105,32
+High (60/20/20),RRT-Connect,142,True,104,30
+High (60/20/20),RRT-Connect,143,True,108,29
+High (60/20/20),RRT-Connect,144,True,97,26
+High (60/20/20),RRT-Connect,145,True,107,25
+High (60/20/20),RRT-Connect,146,True,142,47
+High (60/20/20),RRT-Connect,147,True,226,47
+High (60/20/20),RRT-Connect,148,True,125,39
+High (60/20/20),RRT-Connect,149,True,152,45
+High (60/20/20),RRT-Connect,150,True,172,40
+High (60/20/20),RRT-Connect,151,True,121,36
+High (60/20/20),RRT-Connect,152,True,159,43
+High (60/20/20),RRT-Connect,153,True,103,27
+High (60/20/20),RRT-Connect,154,True,109,32
+High (60/20/20),RRT-Connect,155,True,143,45
+High (60/20/20),RRT-Connect,156,True,80,24
+High (60/20/20),RRT-Connect,157,True,108,25
+High (60/20/20),RRT-Connect,158,True,88,27
+High (60/20/20),RRT-Connect,159,True,94,21
+High (60/20/20),RRT-Connect,160,True,129,40
+High (60/20/20),RRT-Connect,161,True,158,40
+High (60/20/20),RRT-Connect,162,True,88,29
+High (60/20/20),RRT-Connect,163,True,84,26
+High (60/20/20),RRT-Connect,164,True,166,48
+High (60/20/20),RRT-Connect,165,True,280,67
+High (60/20/20),RRT-Connect,166,True,134,38
+High (60/20/20),RRT-Connect,167,True,207,67
+High (60/20/20),RRT-Connect,168,True,122,37
+High (60/20/20),RRT-Connect,169,True,88,23
+High (60/20/20),RRT-Connect,170,True,135,35
+High (60/20/20),RRT-Connect,171,True,173,45
+High (60/20/20),RRT-Connect,172,True,108,29
+High (60/20/20),RRT-Connect,173,True,89,31
+High (60/20/20),RRT-Connect,174,True,115,32
+High (60/20/20),RRT-Connect,175,True,90,29
+High (60/20/20),RRT-Connect,176,True,85,25
+High (60/20/20),RRT-Connect,177,True,92,33
+High (60/20/20),RRT-Connect,178,True,95,23
+High (60/20/20),RRT-Connect,179,True,134,45
+High (60/20/20),RRT-Connect,180,True,194,62
+High (60/20/20),RRT-Connect,181,True,106,31
+High (60/20/20),RRT-Connect,182,True,257,70
+High (60/20/20),RRT-Connect,183,True,126,37
+High (60/20/20),RRT-Connect,184,True,116,42
+High (60/20/20),RRT-Connect,185,True,89,27
+High (60/20/20),RRT-Connect,186,True,170,35
+High (60/20/20),RRT-Connect,187,True,213,64
+High (60/20/20),RRT-Connect,188,True,269,68
+High (60/20/20),RRT-Connect,189,True,77,19
+High (60/20/20),RRT-Connect,190,True,93,30
+High (60/20/20),RRT-Connect,191,True,109,33
+High (60/20/20),RRT-Connect,192,True,259,65
+High (60/20/20),RRT-Connect,193,True,94,26
+High (60/20/20),RRT-Connect,194,True,191,43
+High (60/20/20),RRT-Connect,195,True,116,37
+High (60/20/20),RRT-Connect,196,True,84,22
+High (60/20/20),RRT-Connect,197,True,152,52
+High (60/20/20),RRT-Connect,198,True,102,31
+High (60/20/20),RRT-Connect,199,True,55,16
+High (60/20/20),MDP Policy,0,False,300,119
+High (60/20/20),MDP Policy,1,False,300,123
+High (60/20/20),MDP Policy,2,False,300,113
+High (60/20/20),MDP Policy,3,False,300,113
+High (60/20/20),MDP Policy,4,False,300,118
+High (60/20/20),MDP Policy,5,True,108,34
+High (60/20/20),MDP Policy,6,False,300,125
+High (60/20/20),MDP Policy,7,False,300,113
+High (60/20/20),MDP Policy,8,False,300,115
+High (60/20/20),MDP Policy,9,True,72,29
+High (60/20/20),MDP Policy,10,False,300,107
+High (60/20/20),MDP Policy,11,False,300,121
+High (60/20/20),MDP Policy,12,False,300,117
+High (60/20/20),MDP Policy,13,False,300,106
+High (60/20/20),MDP Policy,14,False,300,100
+High (60/20/20),MDP Policy,15,False,300,116
+High (60/20/20),MDP Policy,16,False,300,116
+High (60/20/20),MDP Policy,17,False,300,130
+High (60/20/20),MDP Policy,18,False,300,128
+High (60/20/20),MDP Policy,19,False,300,109
+High (60/20/20),MDP Policy,20,False,300,128
+High (60/20/20),MDP Policy,21,False,300,127
+High (60/20/20),MDP Policy,22,False,300,116
+High (60/20/20),MDP Policy,23,False,300,110
+High (60/20/20),MDP Policy,24,False,300,123
+High (60/20/20),MDP Policy,25,False,300,105
+High (60/20/20),MDP Policy,26,False,300,117
+High (60/20/20),MDP Policy,27,False,300,125
+High (60/20/20),MDP Policy,28,False,300,120
+High (60/20/20),MDP Policy,29,False,300,120
+High (60/20/20),MDP Policy,30,False,300,115
+High (60/20/20),MDP Policy,31,False,300,101
+High (60/20/20),MDP Policy,32,False,300,114
+High (60/20/20),MDP Policy,33,False,300,118
+High (60/20/20),MDP Policy,34,False,300,127
+High (60/20/20),MDP Policy,35,False,300,132
+High (60/20/20),MDP Policy,36,True,209,73
+High (60/20/20),MDP Policy,37,False,300,111
+High (60/20/20),MDP Policy,38,False,300,116
+High (60/20/20),MDP Policy,39,False,300,129
+High (60/20/20),MDP Policy,40,False,300,103
+High (60/20/20),MDP Policy,41,False,300,122
+High (60/20/20),MDP Policy,42,False,300,121
+High (60/20/20),MDP Policy,43,False,300,118
+High (60/20/20),MDP Policy,44,False,300,115
+High (60/20/20),MDP Policy,45,False,300,124
+High (60/20/20),MDP Policy,46,False,300,106
+High (60/20/20),MDP Policy,47,False,300,120
+High (60/20/20),MDP Policy,48,False,300,109
+High (60/20/20),MDP Policy,49,False,300,124
+High (60/20/20),MDP Policy,50,False,300,112
+High (60/20/20),MDP Policy,51,False,300,112
+High (60/20/20),MDP Policy,52,False,300,122
+High (60/20/20),MDP Policy,53,False,300,116
+High (60/20/20),MDP Policy,54,False,300,118
+High (60/20/20),MDP Policy,55,False,300,116
+High (60/20/20),MDP Policy,56,False,300,116
+High (60/20/20),MDP Policy,57,False,300,114
+High (60/20/20),MDP Policy,58,False,300,110
+High (60/20/20),MDP Policy,59,False,300,124
+High (60/20/20),MDP Policy,60,False,300,104
+High (60/20/20),MDP Policy,61,False,300,110
+High (60/20/20),MDP Policy,62,False,300,123
+High (60/20/20),MDP Policy,63,False,300,128
+High (60/20/20),MDP Policy,64,False,300,105
+High (60/20/20),MDP Policy,65,False,300,97
+High (60/20/20),MDP Policy,66,False,300,116
+High (60/20/20),MDP Policy,67,False,300,122
+High (60/20/20),MDP Policy,68,False,300,116
+High (60/20/20),MDP Policy,69,False,300,101
+High (60/20/20),MDP Policy,70,False,300,107
+High (60/20/20),MDP Policy,71,False,300,126
+High (60/20/20),MDP Policy,72,False,300,125
+High (60/20/20),MDP Policy,73,False,300,103
+High (60/20/20),MDP Policy,74,False,300,125
+High (60/20/20),MDP Policy,75,False,300,135
+High (60/20/20),MDP Policy,76,True,81,35
+High (60/20/20),MDP Policy,77,False,300,109
+High (60/20/20),MDP Policy,78,False,300,121
+High (60/20/20),MDP Policy,79,False,300,117
+High (60/20/20),MDP Policy,80,False,300,124
+High (60/20/20),MDP Policy,81,False,300,107
+High (60/20/20),MDP Policy,82,False,300,119
+High (60/20/20),MDP Policy,83,False,300,122
+High (60/20/20),MDP Policy,84,False,300,100
+High (60/20/20),MDP Policy,85,False,300,112
+High (60/20/20),MDP Policy,86,False,300,128
+High (60/20/20),MDP Policy,87,False,300,112
+High (60/20/20),MDP Policy,88,False,300,119
+High (60/20/20),MDP Policy,89,False,300,107
+High (60/20/20),MDP Policy,90,False,300,112
+High (60/20/20),MDP Policy,91,False,300,130
+High (60/20/20),MDP Policy,92,False,300,121
+High (60/20/20),MDP Policy,93,False,300,112
+High (60/20/20),MDP Policy,94,False,300,108
+High (60/20/20),MDP Policy,95,False,300,106
+High (60/20/20),MDP Policy,96,True,182,67
+High (60/20/20),MDP Policy,97,False,300,125
+High (60/20/20),MDP Policy,98,False,300,105
+High (60/20/20),MDP Policy,99,False,300,127
+High (60/20/20),MDP Policy,100,False,300,115
+High (60/20/20),MDP Policy,101,False,300,129
+High (60/20/20),MDP Policy,102,False,300,117
+High (60/20/20),MDP Policy,103,False,300,103
+High (60/20/20),MDP Policy,104,False,300,115
+High (60/20/20),MDP Policy,105,False,300,126
+High (60/20/20),MDP Policy,106,False,300,124
+High (60/20/20),MDP Policy,107,False,300,120
+High (60/20/20),MDP Policy,108,False,300,130
+High (60/20/20),MDP Policy,109,False,300,128
+High (60/20/20),MDP Policy,110,False,300,127
+High (60/20/20),MDP Policy,111,False,300,121
+High (60/20/20),MDP Policy,112,False,300,106
+High (60/20/20),MDP Policy,113,False,300,130
+High (60/20/20),MDP Policy,114,False,300,111
+High (60/20/20),MDP Policy,115,False,300,128
+High (60/20/20),MDP Policy,116,False,300,126
+High (60/20/20),MDP Policy,117,False,300,132
+High (60/20/20),MDP Policy,118,False,300,105
+High (60/20/20),MDP Policy,119,False,300,110
+High (60/20/20),MDP Policy,120,False,300,117
+High (60/20/20),MDP Policy,121,False,300,119
+High (60/20/20),MDP Policy,122,False,300,114
+High (60/20/20),MDP Policy,123,False,300,114
+High (60/20/20),MDP Policy,124,False,300,128
+High (60/20/20),MDP Policy,125,False,300,120
+High (60/20/20),MDP Policy,126,True,151,50
+High (60/20/20),MDP Policy,127,False,300,131
+High (60/20/20),MDP Policy,128,False,300,139
+High (60/20/20),MDP Policy,129,False,300,103
+High (60/20/20),MDP Policy,130,False,300,121
+High (60/20/20),MDP Policy,131,False,300,122
+High (60/20/20),MDP Policy,132,False,300,123
+High (60/20/20),MDP Policy,133,False,300,130
+High (60/20/20),MDP Policy,134,False,300,124
+High (60/20/20),MDP Policy,135,True,143,60
+High (60/20/20),MDP Policy,136,False,300,119
+High (60/20/20),MDP Policy,137,False,300,111
+High (60/20/20),MDP Policy,138,False,300,124
+High (60/20/20),MDP Policy,139,False,300,126
+High (60/20/20),MDP Policy,140,False,300,123
+High (60/20/20),MDP Policy,141,False,300,118
+High (60/20/20),MDP Policy,142,False,300,112
+High (60/20/20),MDP Policy,143,False,300,112
+High (60/20/20),MDP Policy,144,True,252,90
+High (60/20/20),MDP Policy,145,False,300,117
+High (60/20/20),MDP Policy,146,False,300,134
+High (60/20/20),MDP Policy,147,False,300,103
+High (60/20/20),MDP Policy,148,False,300,126
+High (60/20/20),MDP Policy,149,False,300,119
+High (60/20/20),MDP Policy,150,False,300,120
+High (60/20/20),MDP Policy,151,False,300,127
+High (60/20/20),MDP Policy,152,True,137,49
+High (60/20/20),MDP Policy,153,False,300,118
+High (60/20/20),MDP Policy,154,False,300,113
+High (60/20/20),MDP Policy,155,False,300,117
+High (60/20/20),MDP Policy,156,False,300,112
+High (60/20/20),MDP Policy,157,False,300,129
+High (60/20/20),MDP Policy,158,False,300,124
+High (60/20/20),MDP Policy,159,False,300,110
+High (60/20/20),MDP Policy,160,False,300,118
+High (60/20/20),MDP Policy,161,False,300,110
+High (60/20/20),MDP Policy,162,False,300,124
+High (60/20/20),MDP Policy,163,False,300,112
+High (60/20/20),MDP Policy,164,False,300,133
+High (60/20/20),MDP Policy,165,False,300,110
+High (60/20/20),MDP Policy,166,False,300,124
+High (60/20/20),MDP Policy,167,False,300,120
+High (60/20/20),MDP Policy,168,False,300,117
+High (60/20/20),MDP Policy,169,False,300,113
+High (60/20/20),MDP Policy,170,True,137,49
+High (60/20/20),MDP Policy,171,False,300,116
+High (60/20/20),MDP Policy,172,False,300,115
+High (60/20/20),MDP Policy,173,False,300,126
+High (60/20/20),MDP Policy,174,False,300,110
+High (60/20/20),MDP Policy,175,False,300,121
+High (60/20/20),MDP Policy,176,False,300,124
+High (60/20/20),MDP Policy,177,False,300,119
+High (60/20/20),MDP Policy,178,False,300,117
+High (60/20/20),MDP Policy,179,False,300,113
+High (60/20/20),MDP Policy,180,False,300,124
+High (60/20/20),MDP Policy,181,False,300,120
+High (60/20/20),MDP Policy,182,False,300,122
+High (60/20/20),MDP Policy,183,False,300,114
+High (60/20/20),MDP Policy,184,False,300,126
+High (60/20/20),MDP Policy,185,False,300,121
+High (60/20/20),MDP Policy,186,False,300,117
+High (60/20/20),MDP Policy,187,False,300,116
+High (60/20/20),MDP Policy,188,False,300,126
+High (60/20/20),MDP Policy,189,False,300,108
+High (60/20/20),MDP Policy,190,False,300,103
+High (60/20/20),MDP Policy,191,False,300,110
+High (60/20/20),MDP Policy,192,False,300,121
+High (60/20/20),MDP Policy,193,False,300,125
+High (60/20/20),MDP Policy,194,False,300,125
+High (60/20/20),MDP Policy,195,False,300,114
+High (60/20/20),MDP Policy,196,False,300,125
+High (60/20/20),MDP Policy,197,False,300,122
+High (60/20/20),MDP Policy,198,False,300,110
+High (60/20/20),MDP Policy,199,False,300,110

@@ -38,17 +38,8 @@ RRT-Connect paths cost 1.24-1.31x the optimal. RRT* (where it succeeds) shows ra
 
 ## Individual Algorithm Visualizations
 
-### Dijkstra — Explores everything, finds optimal path
-![Dijkstra](visualizations/phase_a/dijkstra_result.png)
-
-### A* — Heuristic focuses search toward goal
-![A*](visualizations/phase_a/astar_result.png)
-
-### RRT-Connect — Two trees grow and meet
-![RRT-Connect](visualizations/phase_a/rrt_connect_kd_result.png)
-
-### RRT* — Dense tree with rewiring converges toward optimal
-![RRT*](visualizations/phase_a/rrt_star_kd_result.png)
+### Individual Algorithm Visualizations
+![Algorithms Collage](visualizations/phase_a/algorithms_collage.png)
 
 ## Phase B — Dynamic Environment Replanning
 
@@ -86,12 +77,31 @@ Path planning on the Northeastern University campus with terrain-weighted costs.
 
 - 9/10 building-to-building routes successfully navigated across campus
 - Dijkstra and A* find identical optimal weighted paths; A* is ~2x faster on average
-- RRT-Connect finds paths faster but with higher cost due to suboptimal routing
+- RRT-Connect finds paths faster but with higher cost due to suboptimal routinggit 
 - Weighted terrain costs cause paths to naturally follow sidewalks over cutting through grass
 
 ### Individual Routes
 
 ![Routes Collage](visualizations/phase_c/routes_collage.png)
+
+## Phase D — Probabilistic Planning Under Motion Uncertainty
+
+What happens when actuators are noisy? Deterministic planners execute a fixed action sequence (open-loop). The MDP policy reacts to its actual position at every step (closed-loop).
+
+![Success vs Noise](visualizations/phase_d/success_vs_noise.png)
+
+### MDP Policy Visualization
+
+![Policy and Values](visualizations/phase_d/policy_and_values.png)
+
+### Key Findings
+
+- **MDP dominates at low/medium noise**: 100% success rate vs 85-98% for deterministic planners
+- **MDP is 2-3x more step-efficient**: 40 steps vs 93-208 at low noise because it adapts to drift
+- **Performance cliff at high noise (60/20/20)**: MDP drops to 5% — robot becomes nearly uncontrollable when 40% of actions are random. This is the fundamental limit of any policy-based approach
+- **Value Iteration and Policy Iteration produce identical policies**: VI converges in 213 iterations, PI in 8 policy sweeps — PI is 21% faster
+
+![Dashboard](visualizations/phase_d/phase_d_dashboard.png)
 
 ## Project Structure
 
