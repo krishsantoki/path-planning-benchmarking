@@ -69,13 +69,11 @@ D* Lite vs A* full replan with moving obstacles. The robot navigates while obsta
 
 ## Phase C — Real-World Campus Navigation
 
-Path planning algorithms applied to the Northeastern University campus map with terrain-weighted costs. Buildings are impassable, grass areas cost 5x more than sidewalks, encouraging paths to follow walkways.
-
-![ISEC to Snell Library](visualizations/phase_c/route_isec_snell_library.png)
+Path planning on the Northeastern University campus with terrain-weighted costs. Buildings are impassable, grass costs 5x more than sidewalks, encouraging algorithms to prefer walkways.
 
 ![All Routes Overview](visualizations/phase_c/all_routes_overview.png)
 
-### Terrain Classification
+### Terrain Costs
 
 | Terrain | Cost | Description |
 |---------|------|-------------|
@@ -86,10 +84,14 @@ Path planning algorithms applied to the Northeastern University campus map with 
 
 ### Findings
 
-- 9/10 building-to-building routes successfully navigated
-- Dijkstra and A* find identical optimal weighted paths; A* is ~2x faster
-- RRT-Connect finds paths faster but with 10-40% higher cost due to suboptimal routing
-- Weighted terrain costs cause paths to prefer sidewalks over cutting through grass
+- 9/10 building-to-building routes successfully navigated across campus
+- Dijkstra and A* find identical optimal weighted paths; A* is ~2x faster on average
+- RRT-Connect finds paths faster but with higher cost due to suboptimal routing
+- Weighted terrain costs cause paths to naturally follow sidewalks over cutting through grass
+
+### Individual Routes
+
+![Routes Collage](visualizations/phase_c/routes_collage.png)
 
 ## Project Structure
 
