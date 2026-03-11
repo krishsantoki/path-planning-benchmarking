@@ -67,6 +67,30 @@ D* Lite vs A* full replan with moving obstacles. The robot navigates while obsta
 - Both algorithms successfully navigate to the goal despite moving obstacles.
 - D* Lite's advantage grows on larger grids — incremental updates scale better than full replanning.
 
+## Phase C — Real-World Campus Navigation
+
+Path planning algorithms applied to the Northeastern University campus map with terrain-weighted costs. Buildings are impassable, grass areas cost 5x more than sidewalks, encouraging paths to follow walkways.
+
+![ISEC to Snell Library](visualizations/phase_c/route_isec_snell_library.png)
+
+![All Routes Overview](visualizations/phase_c/all_routes_overview.png)
+
+### Terrain Classification
+
+| Terrain | Cost | Description |
+|---------|------|-------------|
+| Sidewalk/Path | 1.0x | Preferred walking route |
+| Road | 2.0x | Walkable but less preferred |
+| Grass/Park | 5.0x | Walkable but discouraged |
+| Building/Water | Impassable | Cannot traverse |
+
+### Findings
+
+- 9/10 building-to-building routes successfully navigated
+- Dijkstra and A* find identical optimal weighted paths; A* is ~2x faster
+- RRT-Connect finds paths faster but with 10-40% higher cost due to suboptimal routing
+- Weighted terrain costs cause paths to prefer sidewalks over cutting through grass
+
 ## Project Structure
 
 ```
@@ -133,9 +157,9 @@ RRT and RRT* use **KD-Tree** (`scipy.spatial.KDTree`) for nearest neighbor queri
 
 - [x] **Phase A** — Static grid benchmarking
 - [x] **Phase B** — Dynamic environment replanning (D* Lite)
-- [ ] **Phase E** — Real floorplan maps
-- [ ] **Phase F** — Probabilistic planning under motion uncertainty (MDP)
+- [x] **Phase C** — Real floorplan maps
+- [ ] **Phase D** — Probabilistic planning under motion uncertainty (MDP)
 
 ## Tech Stack
 
-Python 3.11 · NumPy · Matplotlib · SciPy · OpenCV (Phase E)
+Python 3.11 · NumPy · Matplotlib · SciPy · OpenCV (Phase C)
