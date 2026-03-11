@@ -1,0 +1,31 @@
+route,algorithm,success,time_ms,cost,nodes
+ISEC → Snell Library,Dijkstra,True,159.9249000000782,93.0,4821
+ISEC → Snell Library,A*,True,37.154999999984284,93.0,988
+ISEC → Snell Library,RRT-Connect,True,9.52289999986533,124.32673512215176,19
+West Village H → Dodge Hall,Dijkstra,True,2085.0288000001456,450.0,59494
+West Village H → Dodge Hall,A*,True,1592.1864000001733,450.0,38632
+West Village H → Dodge Hall,RRT-Connect,True,385.8002999995733,426.35559774203085,293
+Ryder Hall → Curry Student Center,Dijkstra,True,1091.543499999716,302.0,32837
+Ryder Hall → Curry Student Center,A*,True,640.2654000003167,302.0,15826
+Ryder Hall → Curry Student Center,RRT-Connect,True,92.80820000003587,363.687995627505,94
+Behrakis → ISEC,Dijkstra,True,698.2284000005166,219.0,21169
+Behrakis → ISEC,A*,True,333.9248999991469,219.0,8413
+Behrakis → ISEC,RRT-Connect,True,74.55490000029386,178.40157364799163,91
+Marino Center → Ell Hall,Dijkstra,True,2006.1015999999654,420.0,60136
+Marino Center → Ell Hall,A*,True,1587.490899999466,420.0,39161
+Marino Center → Ell Hall,RRT-Connect,True,334.6465000004173,258.3710270822697,264
+Ruggles Station → Richards Hall,Dijkstra,False,2332.6025000005757,,70487
+Ruggles Station → Richards Hall,A*,False,2904.4772999995985,,70487
+Ruggles Station → Richards Hall,RRT-Connect,False,4615.192899999784,,1764
+Snell Engineering → Mugar Life Sciences,Dijkstra,True,1056.669100000363,358.0,31674
+Snell Engineering → Mugar Life Sciences,A*,True,245.25529999937135,358.0,6165
+Snell Engineering → Mugar Life Sciences,RRT-Connect,True,92.88260000084847,165.28249563489197,64
+Krentzman Quad → ISEC,Dijkstra,True,619.1482999993241,184.0,18899
+Krentzman Quad → ISEC,A*,True,102.93590000037511,184.0,2708
+Krentzman Quad → ISEC,RRT-Connect,True,73.28349999988859,136.31829296714866,61
+Shillman Hall → Curry Student Center,Dijkstra,True,1838.9321999993626,551.0,53289
+Shillman Hall → Curry Student Center,A*,True,1090.6775000003108,551.0,26715
+Shillman Hall → Curry Student Center,RRT-Connect,True,474.61810000004334,413.9718029895649,330
+West Village H → ISEC,Dijkstra,True,1173.7405999992916,292.0,35774
+West Village H → ISEC,A*,True,626.3447000001179,292.0,15672
+West Village H → ISEC,RRT-Connect,True,219.19220000017958,254.03278053343186,171
